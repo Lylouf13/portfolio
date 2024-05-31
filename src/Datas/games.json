@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "title": "Ether",
+        "cover": "/Assets/Games/Ether/EtherThumb.png",
+        "description": "le jeu de la légende tu le sais",
+        "link": "/games/EtherProject"
+    },
+    {
+        "id": "2",
+        "title": "Color Damage",
+        "cover": "/Assets/Games/ColorDamage/CDThumb.png",
+        "description": "Bip Bip Boup Flash",
+        "link": "/games/ColorDamageProject"
+    },
+    {
+        "id": "3",
+        "title": "Rise From Hell",
+        "cover": "/Assets/Games/RiseFromHell/theo-foray-combat1-1920x1080p.jpg",
+        "description": "La mort c'est fun",
+        "link": "/games/RiseFromHellProject"
+    }
+]
