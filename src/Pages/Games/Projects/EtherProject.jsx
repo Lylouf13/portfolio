@@ -1,6 +1,5 @@
 import React from 'react'
 import './etherProject.scss'
-import './cursor.js'
 
 import { gsap } from 'gsap/gsap-core'
 import { useGSAP } from '@gsap/react'
