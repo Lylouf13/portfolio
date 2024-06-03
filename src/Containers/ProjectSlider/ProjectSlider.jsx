@@ -7,6 +7,7 @@ import ProjectCard from '../../Components/ProjectCard/ProjectCard'
 
 export default function ProjectSlider() {
 
+
   return (
     <div className='projectSlider'>
         {data.map((project, index) =>
