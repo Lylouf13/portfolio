@@ -1,7 +1,17 @@
 .projectSlider{
     display: flex;
     flex-direction: row;
-    justify-content: center;
     gap: 30px;
-    margin: 50px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    cursor: grab;
+
+    &::-webkit-scrollbar {
+        display: none;
+      }
+    &.-active{
+
+    }
 }
