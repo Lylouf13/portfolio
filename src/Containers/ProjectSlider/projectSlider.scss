@@ -7,11 +7,14 @@
     overflow-y: hidden;
     white-space: nowrap;
     cursor: grab;
+    transition: all 0.3s;
+
 
     &::-webkit-scrollbar {
         display: none;
       }
     &.-active{
-
+      transition: all 0.3s;
+      transform: scale(1.05);
     }
 }

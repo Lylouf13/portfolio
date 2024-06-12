@@ -46,4 +46,11 @@
             filter: blur(4px);
         }
     }
+    &-broken{
+        pointer-events: none;
+    }
+    
+    .-active{
+        cursor: grabbing;
+    }
 }
