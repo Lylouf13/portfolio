@@ -2,19 +2,18 @@
     display: flex;
     flex-direction: row;
     gap: 30px;
+    margin: 20px 80px;
+    padding-bottom: 10px;
     flex-wrap: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
     cursor: grab;
-    transition: all 0.3s;
+    scrollbar-width: thin;
+    scrollbar-color: black white;
+    scroll-margin: 100px;
 
-
-    &::-webkit-scrollbar {
-        display: none;
-      }
     &.-active{
-      transition: all 0.3s;
-      transform: scale(1.05);
+      cursor: grabbing;
     }
 }

@@ -2,14 +2,16 @@
     position: relative;
     flex: 0 0 auto;
     min-width: 600px;
-    height: 350px;
+    height: 320px;
     overflow:hidden;
     border-radius: 10px 10px 60px 60px;
     transition: all 0.4s;
     user-select: none;
     cursor: grab;
 
-
+    &:focus-visible{
+        outline: cyan solid 10px;
+    }
     &:hover{
         border-radius: 10px 10px 20px 20px;
         & .projectCard__title{
