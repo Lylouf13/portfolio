@@ -15,7 +15,7 @@ export default function ProjectSlider() {
 
   // Reset temporary classes from both slider and cards
   // These classes are added to give better UX on drag&drop 
-  // and avoid accidental clicking while rolling the slider
+  // and avoid accidental clicking while scrolling the slider
   function resetStates(){
     changedCards.forEach((e) =>{
       e.offsetParent.className = 'projectCard'
@@ -53,7 +53,7 @@ export default function ProjectSlider() {
     e.preventDefault();
     const x = e.pageX - slider.current.offsetLeft
     const walk = (x - startX) * 1.5
-    //var prevScrollLEft = slider.scrollLeft
+    //var prevScrollLEft = slider.scrollLeft >> momentum base
     slider.current.scrollLeft = scrollLeft - walk
   }
 
