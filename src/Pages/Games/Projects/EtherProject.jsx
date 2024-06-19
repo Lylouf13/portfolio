@@ -14,7 +14,6 @@ export default function EtherProject() {
 
   useGSAP(()=>{
     gsap.fromTo(".blue", {x: -100},{rotation: 1400, x: 1750,y: 350, duration: 15});
-    gsap.fromTo(".green", {x: 1200, y:600},{rotation: 200, x: 1350,y: 0, duration: 15});
     })
   return (
     <article className='project'>

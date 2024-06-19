@@ -1,12 +1,12 @@
-@mixin slideFromLeft{
-    animation-name: animation-slideFromLeft;
-    animation-duration: 2s;
+@mixin slideFromSide($distance, $duration, $opacity){
+    animation-name: animation-slideFromSide;
+    animation-duration: $duration;
     animation-fill-mode:forwards;
 
-    @keyframes animation-slideFromLeft{
+    @keyframes animation-slideFromSide{
         0%{
-            transform: translateX(-200px);
-            opacity: 0;
+            transform: translateX($distance);
+            opacity: $opacity;
         }
         50%{
             transform: translateX(0px);
