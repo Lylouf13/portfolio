@@ -1,0 +1,18 @@
+@mixin slideFromLeft{
+    animation-name: animation-slideFromLeft;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+
+    @keyframes animation-slideFromLeft{
+        0%{
+            transform: translateX(-200px);
+            opacity: 0;
+        }
+        50%{
+            transform: translateX(0px);
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+}

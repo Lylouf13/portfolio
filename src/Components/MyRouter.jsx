@@ -2,6 +2,7 @@ import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 
 import Home from '../Pages/Home.jsx'
+import Web from '../Pages/Web.jsx'
 import Games from '../Pages/Games/Games.jsx'
 import PixelArt from '../Pages/PixelArt.jsx'
 
@@ -17,6 +18,7 @@ export default function Router() {
   return (
     <Routes>
         <Route path="/" element={<Home/>}/>
+        <Route path="/web" element={<Web/>}/>
         <Route path="/games" element={<Games/>}>
             <Route path="/games/EtherProject" element={<EtherProject/>}/>
             <Route path="/games/ColorDamageProject" element={<ColorDamageProject/>}/>

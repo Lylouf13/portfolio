@@ -1,4 +1,5 @@
 import React, {useState, useRef} from 'react'
+import '../../Assets/sass/animations.scss'
 import './projectSlider.scss'
 import data from '../../Datas/games.json'
 

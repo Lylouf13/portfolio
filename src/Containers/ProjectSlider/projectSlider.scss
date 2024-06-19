@@ -1,3 +1,6 @@
+@use '../../Assets/sass/animations';
+@import '../../Assets/sass/animations.scss';
+
 .projectSlider{
     display: flex;
     flex-direction: row;
@@ -13,6 +16,8 @@
     scrollbar-width: thin;
     scrollbar-color: black white;
     scroll-margin: 100px;
+
+    @include animations.slideFromLeft;
 
     &.-jsActive{
       cursor: grabbing;
