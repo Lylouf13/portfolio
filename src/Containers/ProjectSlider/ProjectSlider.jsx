@@ -13,9 +13,7 @@ export default function ProjectSlider() {
   const changedCards = []
 
 
-  // Reset temporary classes from both slider and cards
-  // These classes are added to give better UX on drag&drop 
-  // and avoid accidental clicking while scrolling the slider
+  // Enables interactions after exiting slide state
   function resetStates(){
     changedCards.forEach((e) =>{
       e.offsetParent.className = 'projectCard'
@@ -24,6 +22,17 @@ export default function ProjectSlider() {
     if(slider.current.className !== 'projectSlider'){
       slider.current.className = 'projectSlider'
     }
+  }
+  // Disables interactions with cards during slide
+  function disableInteraction(e){
+    if(e.target.offsetParent.className === 'projectCard')
+      {
+        e.target.offsetParent.className += ' projectCard-jsDisabled'
+        changedCards.push(e.target)
+      }
+      if(slider.current.className === 'projectSlider'){
+        slider.current.className += ' -jsActive'
+      }
   }
   
   const handleMouseDown = (e) =>{
@@ -42,19 +51,10 @@ export default function ProjectSlider() {
 
   const handleMouseMove = (e) =>{
     if(!isDown) return
-    if(e.target.offsetParent.className === 'projectCard')
-    {
-      e.target.offsetParent.className += ' projectCard-broken -active'
-      changedCards.push(e.target)
-    }
-    if(slider.current.className === 'projectSlider'){
-      slider.current.className += ' -active'
-    }
-    e.preventDefault();
+    disableInteraction(e)
     const x = e.pageX - slider.current.offsetLeft
-    const walk = (x - startX) * 1.5
-    //var prevScrollLEft = slider.scrollLeft >> momentum base
-    slider.current.scrollLeft = scrollLeft - walk
+    const movement = (x - startX) * 1.5
+    slider.current.scrollLeft = scrollLeft - movement
   }
 
   return (

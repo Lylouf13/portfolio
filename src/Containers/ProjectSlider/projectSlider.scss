@@ -3,7 +3,8 @@
     flex-direction: row;
     gap: 30px;
     margin: 20px 80px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 60px;
     flex-wrap: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
@@ -13,7 +14,7 @@
     scrollbar-color: black white;
     scroll-margin: 100px;
 
-    &.-active{
+    &.-jsActive{
       cursor: grabbing;
     }
 }
