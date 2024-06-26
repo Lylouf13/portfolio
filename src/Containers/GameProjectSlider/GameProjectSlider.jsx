@@ -1,11 +1,10 @@
 import React, {useState, useRef} from 'react'
-import '../../Assets/sass/animations.scss'
-import './projectSlider.scss'
+import './gameProjectSlider.scss'
 import data from '../../Datas/games.json'
 
-import ProjectCard from '../../Components/ProjectCard/ProjectCard'
+import GameProjectCard from '../../Components/GameProjectCard/GameProjectCard'
 
-export default function ProjectSlider() {
+export default function GameProjectSlider() {
 
   const [isDown, setIsDown] = useState(false)
   const [startX, setStartX] = useState(null)
@@ -67,7 +66,7 @@ export default function ProjectSlider() {
       ref={slider}
     >
       {data.map((project, index) =>
-          <ProjectCard 
+          <GameProjectCard 
             id={project.id} 
             key={project.id} 
             title={project.title} 

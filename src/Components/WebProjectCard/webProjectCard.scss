@@ -1,0 +1,24 @@
+@use "../../App";
+
+.webProjectCard{
+    position: relative;
+
+    @include App.anim-slideFromSide(-300px,10s,1);
+
+    &__image{
+        width: 400px;
+        height: 400px;
+        object-fit: contain;
+
+    }
+    &__title{
+        position: absolute;
+        color: red;
+        font-weight: 700;
+        font-size: 70px;
+        left: 1000px;
+        bottom: 10px;
+        user-select: none;
+
+    }
+}

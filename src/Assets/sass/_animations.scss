@@ -1,4 +1,4 @@
-@mixin slideFromSide($distance, $duration, $opacity){
+@mixin slideFromSide($distance:null, $duration:null, $opacity:null){
     animation-name: animation-slideFromSide;
     animation-duration: $duration;
     animation-fill-mode:forwards;
@@ -9,10 +9,11 @@
             opacity: $opacity;
         }
         50%{
-            transform: translateX(0px);
+            transform: translateX(0);
         }
         100%{
             opacity: 1;
+
         }
     }
 }
