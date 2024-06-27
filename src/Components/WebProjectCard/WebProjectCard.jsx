@@ -1,12 +1,22 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import './webProjectCard.scss'
 
 export default function WebProjectCard(data) {
   return (
-    <div className='webProjectCard'>
-        <img className='webProjectCard__image' src="/Assets/Web/test.png" alt="voidling"/>
-        <h2 className='webProjectCard__title'>title</h2>
-    </div>
+    <Link className='webProjectCard' to={data.link} draggable="false">
+        <h2 className="webProjectCard__title" draggable="false"> {data.title}</h2>
+        <img className='webProjectCard__image' draggable="false" src={data.cover} alt={data.description} />
+        <div className='webProjectCard__techIcons'>
+          {data.technos.map((techno)=>
+            <img
+            className='webProjectCard__techIcons__icon' 
+            src={`/Assets/Web/TechIcons/icon_${techno}.png`}
+            alt={`${techno} logo`}
+            />)
+          }
+        </div>
+    </Link>
   )
 }

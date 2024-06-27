@@ -65,7 +65,7 @@ export default function GameProjectSlider() {
       onMouseLeave={handleMouseLeave}
       ref={slider}
     >
-      {data.map((project, index) =>
+      {data.map((project) =>
           <GameProjectCard 
             id={project.id} 
             key={project.id} 

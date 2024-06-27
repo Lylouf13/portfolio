@@ -3,22 +3,38 @@
 .webProjectCard{
     position: relative;
 
-    @include App.anim-slideFromSide(-300px,10s,1);
+    width: 600px;
+
+    @include App.anim-slideFromSide(-300px,3s,1);
 
     &__image{
-        width: 400px;
-        height: 400px;
-        object-fit: contain;
 
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
     }
     &__title{
         position: absolute;
-        color: red;
+        color: white;
+        margin:0;
         font-weight: 700;
         font-size: 70px;
-        left: 1000px;
-        bottom: 10px;
         user-select: none;
+        text-align: center;
+        bottom: 10px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
 
+    }
+    &__techIcons{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        &__icon{
+            width: 64px;
+            height: 64px;
+        }
     }
 }
