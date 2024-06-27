@@ -17,3 +17,23 @@
         }
     }
 }
+
+@mixin slideFromHeight($distance:null, $duration:null, $opacity:null){
+    animation-name: animation-slideFromHeight;
+    animation-duration: $duration;
+    animation-fill-mode:forwards;
+
+    @keyframes animation-slideFromHeight{
+        0%{
+            transform: translateY($distance);
+            opacity: $opacity;
+        }
+        70%{
+            transform: translateY(0);
+        }
+        100%{
+            opacity: 1;
+
+        }
+    }
+}

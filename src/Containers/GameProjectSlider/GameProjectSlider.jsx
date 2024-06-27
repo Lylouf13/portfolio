@@ -68,7 +68,7 @@ export default function GameProjectSlider() {
       {data.map((project) =>
           <GameProjectCard 
             id={project.id} 
-            key={project.id} 
+            key={`gameProjectCard_${project.id}_${project.title}`} 
             title={project.title} 
             cover={project.cover} 
             description={project.description} 

@@ -1,5 +1,7 @@
 @forward "/src/Assets/sass/animations" as anim-*;
-
+*{
+  margin: 0px;
+}
 .App {
   text-align: center;
 }

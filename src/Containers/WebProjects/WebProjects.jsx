@@ -11,7 +11,7 @@ export default function WebProjects() {
         {data.map((project, index) =>
             <WebProjectCard 
               id={project.id} 
-              key={project.id} 
+              key={`webCard_${project.id}_${project.title}`} 
               title={project.title} 
               cover={project.cover} 
               description={project.description} 

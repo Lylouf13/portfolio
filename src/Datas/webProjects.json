@@ -9,18 +9,50 @@
     },
     {
         "id": "2",
-        "title": "Kasa2",
-        "cover": "/Assets/Web/Kasa/kasa_thumb.png",
+        "title": "724Events",
+        "cover": "/Assets/Web/724Events/724events_thumb.png",
         "description": "Kasa project thumbnail",
-        "link": "/web/KasaProject",
+        "link": "/web/SevenEventsProject",
         "technos": ["sass","react","js"]
     },
     {
         "id": "3",
-        "title": "Kasa3",
+        "title": "Booki",
         "cover": "/Assets/Web/Kasa/kasa_thumb.png",
         "description": "Kasa project thumbnail",
-        "link": "/web/KasaProject",
-        "technos": ["sass","react","css","html","js"]
+        "link": "/web/BookiProject",
+        "technos": ["css","html"]
+    },
+    {
+        "id": "4",
+        "title": "Argent Bank",
+        "cover": "/Assets/Web/724Events/724events_thumb.png",
+        "description": "Kasa project thumbnail",
+        "link": "/web/ArgentBankProject",
+        "technos": ["sass","react"]
+    },
+    {
+        "id": "5",
+        "title": "NinaCarducci",
+        "cover": "/Assets/Web/724Events/724events_thumb.png",
+        "description": "Kasa project thumbnail",
+        "link": "/web/NinaCarducciProject",
+        "technos": ["css","js"]
+    },
+    {
+        "id": "6",
+        "title": "SophieBluel",
+        "cover": "/Assets/Web/724Events/724events_thumb.png",
+        "description": "Kasa project thumbnail",
+        "link": "/web/SophieBluelProject",
+        "technos": ["js","css"]
+    },
+    {
+        "id": "7",
+        "title": "OhMyFood",
+        "cover": "/Assets/Web/724Events/724events_thumb.png",
+        "description": "Kasa project thumbnail",
+        "link": "/web/OhMyFoodProject",
+        "technos": ["css","html"]
     }
 ]

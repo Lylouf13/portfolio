@@ -1,40 +1,71 @@
 @use "../../App";
 
 .webProjectCard{
+    @include App.anim-slideFromHeight(300px,1.5s,1);
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+
+    right: 0px;
+    transition: all 0.5s;
     position: relative;
-
-    width: 600px;
-
-    @include App.anim-slideFromSide(-300px,3s,1);
-
     &__image{
 
         object-fit: cover;
-        width: 100%;
-        height: 100%;
+        width: 350px;
+
     }
     &__title{
         position: absolute;
-        color: white;
+        color: black;
         margin:0;
         font-weight: 700;
-        font-size: 70px;
+        font-size: 40px;
         user-select: none;
         text-align: center;
-        bottom: 10px;
+        bottom: 0px;
         left: 0;
         right: 0;
         margin-left: auto;
         margin-right: auto;
 
+        opacity: 0;
+        transition: all 0.5s;
     }
+
     &__techIcons{
         display: flex;
         flex-direction: row;
-        position: relative;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        position: absolute;
+        margin: 0 50px;
+        top: 0px;
+        opacity: 0;
+
+        transition: all 0.5s;
+
         &__icon{
             width: 64px;
             height: 64px;
+        }
+    }
+
+    &:hover{
+        .webProjectCard{
+            &__title{
+                opacity: 1;
+                bottom: 10px;
+            }
+            &__techIcons{
+                opacity: 1;
+                top: 25px;
+                transition: all 0.5s;
+            }
         }
     }
 }
