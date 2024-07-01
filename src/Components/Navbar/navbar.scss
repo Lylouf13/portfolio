@@ -20,6 +20,11 @@
         text-align: center;
         transition: all 0.5s;
 
+        &-current{
+            background-color: variables.$color-secondary;
+            color: black;
+        }
+
         &:hover{
             background-color: variables.$color-secondary;
             transition: all 0.5s;
