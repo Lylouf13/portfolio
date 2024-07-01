@@ -4,8 +4,8 @@ import GameProjectSlider from '../../Containers/GameProjectSlider/GameProjectSli
 
 export default function Games() {
   return (
-    <section>
-      <h1>Games</h1>
+    <section className='main'>
+      <h1 className='main__title'>Games</h1>
       <nav>
         <GameProjectSlider/>
       </nav>

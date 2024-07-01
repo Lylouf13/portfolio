@@ -1,4 +1,4 @@
-@use "../../App";
+@use "/src/App.scss";
 
 .webProjectCard{
     @include App.anim-slideFromHeight(300px,1.5s,1);
@@ -11,7 +11,6 @@
 
     right: 0px;
     transition: all 0.5s;
-    position: relative;
     &__image{
 
         object-fit: cover;

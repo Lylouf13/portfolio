@@ -4,8 +4,8 @@ import './home.scss'
 
 export default function Home() {
   return (
-    <div className='home'>
-        <h1 className='home__container__title'>Home</h1>
+    <div className='main'>
+        <h1 className='main__title'>Home</h1>
         <div>
           <p className="home__container__text">
             Bonjour et bienvenue ! Je suis Lylian et j'ai décidé il y a un an de me 
