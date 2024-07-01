@@ -16,8 +16,6 @@
     scrollbar-color: black white;
     scroll-margin: 100px;
 
-    //@include animations.slideFromLeft;
-
     &.-jsActive{
       cursor: grabbing;
     }

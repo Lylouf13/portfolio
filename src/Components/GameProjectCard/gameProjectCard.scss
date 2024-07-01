@@ -1,6 +1,8 @@
-@use "/src/App.scss";
+@use "/src/assets/sass/loader.scss";
 
 .projectCard{
+    @include loader.anim-slideFromSide(-900px, 3s, 1);
+
     position: relative;
     flex: 0 0 auto;
     min-width: 600px;
@@ -11,17 +13,16 @@
     user-select: none;
     cursor: grab;
 
-    @include App.anim-slideFromSide(-900px, 3s, 1);
-
     &:focus-visible{
         outline: cyan solid 10px;
     }
 
     &:hover{
         border-radius: 10px 10px 20px 20px;
+
         & .projectCard__title{
             opacity: 1;
-            bottom: 15px;
+            bottom: -20px;
         }
     }
 
@@ -37,7 +38,8 @@
         color: white;
         z-index: 2;
         pointer-events: none;
-        font-size: 58px;
+        font-size: 55px;
+        text-align: center;
         transition: all 0.5s;
     }
 

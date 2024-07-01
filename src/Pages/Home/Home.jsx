@@ -4,18 +4,20 @@ import './home.scss'
 
 export default function Home() {
   return (
-    <div className='main'>
+    <section className='main'>
         <h1 className='main__title'>Home</h1>
-        <div>
-          <p className="home__container__text">
-            Bonjour et bienvenue ! Je suis Lylian et j'ai décidé il y a un an de me 
-            reconvertir dans le développement front-end.
-          </p>
-          <p className="home__container__text">
-            Mon parcours m'a doté d'un profil touche-à-tout et très adaptable, allant du design à
-            l'art, en passant évidemment par le développement, sous plusieurs formes.
-          </p>
-      </div>
+        <p className="main__text">
+          Bonjour et bienvenue ! Je suis Lylian et j'ai décidé il y a un an de me 
+          reconvertir dans le développement front-end.
+        </p>
+        <p className="main__text">
+          Les premières étapes de mon parcours dans le domaine du jeu vidéo m'ont doté d'un profil touche-à-tout et très adaptable, 
+          allant du design à l'art, en passant évidemment par le développement, sous plusieurs formes.
+        </p>
+        <p className="main__text">
+          J'y ai également eu l'occasion de communiquer avec des corps de métier très différents les uns des autres, développant ainsi
+          ma capacité à écouter et communiquer autour des besoins très différents de chacun dans une production
+        </p>
       <h2 className='home__container__subtitle'>Web dev</h2>
       <div className="home__container">
         <p className="home__container__text">Ce portfolio me permet de présenter tous mes travaux réalisés en développement front-end, princpalement
@@ -35,6 +37,6 @@ export default function Home() {
           <Link className="home__container__cta" to="/pixelart">Pixel Art</Link>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

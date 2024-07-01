@@ -1,12 +1,17 @@
-@forward "/src/Assets/sass/animations" as anim-*;
-*{
-  margin: 0px;
-}
+@use 'src/assets/sass/loader';
 
 .main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   &__title{
     font-size: 50px;
     margin-top: 35px;
     margin-bottom: 20px;
+  }
+  &__text{
+    @include loader.mixin-text-standard;
+    margin-bottom: 10px;
   }
 }

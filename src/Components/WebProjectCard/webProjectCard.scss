@@ -1,22 +1,21 @@
-@use "/src/App.scss";
+@use "/src/assets/sass/loader.scss";
 
 .webProjectCard{
-    @include App.anim-slideFromHeight(300px,1.5s,1);
-
+    @include loader.anim-slideFromHeight(300px,1.5s,1);
 
     display: flex;
     justify-content: center;
     align-items: center;
     position:relative;
-
     right: 0px;
     transition: all 0.5s;
-    &__image{
 
+    &__image{
         object-fit: cover;
         width: 350px;
 
     }
+
     &__title{
         position: absolute;
         color: black;

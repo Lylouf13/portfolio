@@ -5,10 +5,10 @@ import WebProjects from '../Containers/WebProjects/WebProjects'
 
 export default function Web() {
   return (
-    <div className='main'>
+    <section className='main'>
         <h1 className='main__title'>Web</h1>
         <p>On retrouve ici tous mes projets web !</p>
         <WebProjects/>
-    </div>
+    </section>
   )
 }
