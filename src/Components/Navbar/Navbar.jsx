@@ -8,8 +8,8 @@ export default function Navbar() {
   return (
     <nav className='navbar'>
         <Link to="/" className={`navbar__link ${location.pathname==="/"? "navbar__link-current" : ""}`}>Home</Link>
-        <Link to="/web" className={`navbar__link ${location.pathname==="/web"? "navbar__link-current" : ""}`}>Web</Link>
-        <Link to="/games" className={`navbar__link ${location.pathname==="/games"? "navbar__link-current" : ""}`}>Games</Link>
+        <Link to="/web" className={`navbar__link ${location.pathname.includes("/web")? "navbar__link-current" : ""}`}>Web</Link>
+        <Link to="/games" className={`navbar__link ${location.pathname.includes("/games")? "navbar__link-current" : ""}`}>Games</Link>
         <Link to="/pixelArt" className={`navbar__link ${location.pathname==="/pixelArt"? "navbar__link-current" : ""}`}>Pixel Art</Link>
     </nav>
   )
