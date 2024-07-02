@@ -29,7 +29,6 @@ export default function Router() {
     <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/web" element={<Web/>}>
-        </Route>
             <Route path="/web/BookiProject" element={<BookiProject/>}/>
             <Route path="/web/KasaProject" element={<KasaProject/>}/>
             <Route path="/web/SevenEventsProject" element={<SevenEventsProject/>}/>
@@ -37,6 +36,7 @@ export default function Router() {
             <Route path="/web/NinaCarducciProject" element={<NinaCarducciProject/>}/>
             <Route path="/web/SophieBluelProject" element={<SophieBluelProject/>}/>
             <Route path="/web/OhMyFoodProject" element={<OhMyFoodProject/>}/>
+        </Route>
         <Route path="/games" element={<Games/>}>
             <Route path="/games/EtherProject" element={<EtherProject/>}/>
             <Route path="/games/ColorDamageProject" element={<ColorDamageProject/>}/>

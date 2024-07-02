@@ -5,7 +5,9 @@
     flex-direction: row;
     justify-content: center;
     background-color: variables.$color-main;
-
+    position: sticky;
+    top:0;
+    z-index: 10;
 
     &__link{
         box-sizing: border-box;

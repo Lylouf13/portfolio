@@ -1,0 +1,178 @@
+[
+    {
+    "type":"static",
+    "elements":[
+    {
+        "id": "1",
+        "title": "Base",
+        "image": "/Assets/PixelArt/Static/pix_1.png",
+        "description": "Thumbnail ether project"
+    },
+    {
+        "id": "2",
+        "title": "Base",
+        "image": "/Assets/PixelArt/Static/pix_2.png",
+        "description": "Thumbnail ether project"
+    },
+    {
+        "id": "3",
+        "title": "Base",
+        "image": "/Assets/PixelArt/Static/pix_3.png",
+        "description": "Thumbnail ether project"
+    },
+    {
+        "id": "4",
+        "title": "Base",
+        "image": "/Assets/PixelArt/Static/pix_4.png",
+        "description": "Thumbnail ether project"
+    },
+    {
+        "id": "5",
+        "title": "Base",
+        "image": "/Assets/PixelArt/Static/pix_5.png",
+        "description": "Thumbnail ether project"
+    },
+    {
+        "id": "6",
+        "title": "Base",
+        "image": "/Assets/PixelArt/Static/pix_6.png",
+        "description": "Thumbnail ether project"
+    },
+    {
+        "id": "7",
+        "title": "Base",
+        "image": "/Assets/PixelArt/Static/pix_7.png",
+        "description": "Thumbnail ether project"
+    },
+    {
+        "id": "8",
+        "title": "Base",
+        "image": "/Assets/PixelArt/Static/pix_8.png",
+        "description": "Thumbnail ether project"
+    },
+    {
+        "id": "9",
+        "title": "Base",
+        "image": "/Assets/PixelArt/Static/pix_9.png",
+        "description": "Thumbnail ether project"
+    },
+    {
+        "id": "10",
+        "title": "Base",
+        "image": "/Assets/PixelArt/Static/pix_10.png",
+        "description": "Thumbnail ether project"
+    },
+    {
+        "id": "11",
+        "title": "Base",
+        "image": "/Assets/PixelArt/Static/pix_11.png",
+        "description": "Thumbnail ether project"
+    },
+    {
+        "id": "12",
+        "title": "Base",
+        "image": "/Assets/PixelArt/Static/pix_12.png",
+        "description": "Thumbnail ether project"
+    },
+    {
+        "id": "13",
+        "title": "Base",
+        "image": "/Assets/PixelArt/Static/pix_13.png",
+        "description": "Thumbnail ether project"
+    },
+    {
+        "id": "14",
+        "title": "Base",
+        "image": "/Assets/PixelArt/Static/pix_14.png",
+        "description": "Thumbnail ether project"
+    },
+    {
+        "id": "15",
+        "title": "Base",
+        "image": "/Assets/PixelArt/Static/pix_15.png",
+        "description": "Thumbnail ether project"
+    },
+    {
+        "id": "16",
+        "title": "Base",
+        "image": "/Assets/PixelArt/Static/pix_16.png",
+        "description": "Thumbnail ether project"
+    },
+    {
+        "id": "17",
+        "title": "Base",
+        "image": "/Assets/PixelArt/Static/pix_17.png",
+        "description": "Thumbnail ether project"
+    },
+    {
+        "id": "18",
+        "title": "Base",
+        "image": "/Assets/PixelArt/Static/pix_18.png",
+        "description": "Thumbnail ether project"
+    },
+    {
+        "id": "19",
+        "title": "Base",
+        "image": "/Assets/PixelArt/Static/pix_19.png",
+        "description": "Thumbnail ether project"
+    },
+    {
+        "id": "20",
+        "title": "Base",
+        "image": "/Assets/PixelArt/Static/pix_20.png",
+        "description": "Thumbnail ether project"
+    }
+    ]},
+    {
+    "type":"anim",
+    "elements":[
+        {
+            "id": "1",
+            "title": "Base",
+            "image": "/Assets/PixelArt/Anim/pixAnim_1.gif",
+            "description": "Thumbnail ether project"
+        },
+        {
+            "id": "2",
+            "title": "Base",
+            "image": "/Assets/PixelArt/Anim/pixAnim_2.gif",
+            "description": "Thumbnail ether project"
+        },
+        {
+            "id": "3",
+            "title": "Base",
+            "image": "/Assets/PixelArt/Anim/pixAnim_3.gif",
+            "description": "Thumbnail ether project"
+        },
+        {
+            "id": "4",
+            "title": "Base",
+            "image": "/Assets/PixelArt/Anim/pixAnim_4.gif",
+            "description": "Thumbnail ether project"
+        },
+        {
+            "id": "5",
+            "title": "Base",
+            "image": "/Assets/PixelArt/Anim/pixAnim_5.gif",
+            "description": "Thumbnail ether project"
+        },
+        {
+            "id": "6",
+            "title": "Base",
+            "image": "/Assets/PixelArt/Anim/pixAnim_6.gif",
+            "description": "Thumbnail ether project"
+        },
+        {
+            "id": "7",
+            "title": "Base",
+            "image": "/Assets/PixelArt/Anim/pixAnim_7.gif",
+            "description": "Thumbnail ether project"
+        },
+        {
+            "id": "8",
+            "title": "Base",
+            "image": "/Assets/PixelArt/Anim/pixAnim_8.gif",
+            "description": "Thumbnail ether project"
+        }
+    ] }
+]
