@@ -3,7 +3,7 @@
 
 .projectCard{
     @include loader.anim-slideFromSide(-900px, 3s, 1);
-    @include loader.mixin-card_title(white, -50px, 50px);
+    @include loader.mixin-cardTitle(white, -50px, 50px);
 
     position: relative;
     flex: 0 0 auto;

@@ -1,0 +1,11 @@
+.webProject{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: solid black;
+    margin-top: 20px;
+    &__title{
+        font-size: 50px;
+    }
+}

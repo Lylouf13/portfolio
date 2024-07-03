@@ -1,5 +1,6 @@
 import React from 'react'
 
+import '../webProjects.scss'
 import IllustratedText from '../../../../Components/IllustratedText/IllustratedText'
 
 export default function SevenEvents() {

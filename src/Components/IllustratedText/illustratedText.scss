@@ -7,7 +7,7 @@
     align-items: center;
 
     &__text{
-        @include loader.mixin-text_standard
+        @include loader.mixin-standardText
     }
     &__image{
         width: 300px;

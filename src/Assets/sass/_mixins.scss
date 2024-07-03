@@ -1,4 +1,4 @@
-@mixin text_standard{
+@mixin standardText{
     box-sizing: border-box;
     width: 600px;
     font-size: 18px;
@@ -6,7 +6,7 @@
     line-height: 30px;
 }
 
-@mixin card_title ($textColor, $startPosition, $fontSize){
+@mixin cardTitle ($textColor, $startPosition, $fontSize){
     &__title{
         position: absolute;
         bottom: $startPosition;

@@ -2,7 +2,7 @@
 
 .pixelCard{
     position: relative;
-    @include loader.mixin-card_title(white, -50px, 40px);
+    @include loader.mixin-cardTitle(white, -50px, 40px);
     z-index: 0;
 
     &__image{

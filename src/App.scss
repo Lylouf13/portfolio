@@ -11,7 +11,7 @@
     margin-bottom: 20px;
   }
   &__text{
-    @include loader.mixin-text-standard;
+    @include loader.mixin-standardText;
     margin-bottom: 10px;
   }
 }
