@@ -5,3 +5,24 @@
     text-align: justify;
     line-height: 30px;
 }
+
+@mixin card_title ($textColor, $startPosition){
+    &__title{
+        position: absolute;
+        bottom: $startPosition;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        color: $textColor;
+        font-weight: 700;
+        font-size: 40px;
+        text-align: center;
+        user-select: none;
+        pointer-events: none;
+        z-index: 2;
+
+        opacity: 0;
+        transition: all 0.5s;
+    }
+}
