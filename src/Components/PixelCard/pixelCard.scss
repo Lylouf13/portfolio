@@ -13,18 +13,19 @@
     }
     &:hover{
         border-radius: 10px 10px 20px 20px;
-        z-index: 10;
-
+        z-index: 9;
         & .pixelCard{
             &__image{
                 transform: scale(1.1);
                 box-shadow: 0px 0px 5px 4px white;
+                cursor: pointer;
                 transition: all 0.5s;
-
             }
             &__title{
-                bottom: 0;
+                bottom: -20px;
                 opacity: 1;
+                text-shadow: -2px -2px 0 black, 2px -2px 0 black, 2px 2px 0 black,
+                2px 2px 0 black;
                 transition: all 0.5s;
             }
         }
