@@ -6,7 +6,7 @@
     line-height: 30px;
 }
 
-@mixin card_title ($textColor, $startPosition){
+@mixin card_title ($textColor, $startPosition, $fontSize){
     &__title{
         position: absolute;
         bottom: $startPosition;
@@ -16,7 +16,7 @@
         margin-right: auto;
         color: $textColor;
         font-weight: 700;
-        font-size: 40px;
+        font-size: $fontSize;
         text-align: center;
         user-select: none;
         pointer-events: none;

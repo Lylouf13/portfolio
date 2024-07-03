@@ -2,7 +2,7 @@
 
 .webProjectCard{
     @include loader.anim-slideFromHeight(300px,1.5s,1);
-    @include loader.mixin-card_title(black, -50px);
+    @include loader.mixin-card_title(black, -50px, 40px);
 
     display: flex;
     justify-content: center;
