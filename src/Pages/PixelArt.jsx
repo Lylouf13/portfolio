@@ -1,6 +1,6 @@
 import React from 'react'
 
-import PixelGrid from '../Containers/PixelGrid/PixelGrid'
+import PixelGalery from '../Containers/PixelGalery/PixelGalery'
 
 export default function PixelArt() {
   return (
@@ -17,10 +17,7 @@ export default function PixelArt() {
           pendant un peu plus d'un an en tant que freelance, pour des développeurs indépendants et des serveurs minecraft principalement.
         </p>
       </section>
-      <section>
-        <PixelGrid type={'static'} />
-        <PixelGrid type={'anim'} />
-      </section>
+      <PixelGalery />
     </main>
   )
 }

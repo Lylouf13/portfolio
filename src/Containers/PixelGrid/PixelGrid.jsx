@@ -11,6 +11,8 @@ export default function PixelGrid(set) {
      <div className='pixelGrid'>
          {used.elements.map((art) =>
              <PixelCard 
+             usable={set.usable}
+             setViewer={set.setViewer}
              id={art.id} 
              type={set.type}
              key={`pixelArt${art.id}_${art.title}`} 

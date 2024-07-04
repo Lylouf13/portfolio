@@ -1,0 +1,21 @@
+@use '/src/Assets/sass/variables';
+
+.cta{
+    box-sizing: border-box;
+    background-color: variables.$color-main;
+    border-radius: 4px;
+    padding-top: 20px;
+    width: 240px;
+    height: 75px;
+
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    transition: all 0.5s;
+
+    &:hover{
+        background-color: variables.$color-secondary;
+        transition: all 0.5s;
+    }
+}
