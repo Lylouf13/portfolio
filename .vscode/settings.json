@@ -1,0 +1,24 @@
+{
+    "folder-color.pathColors": [
+        {
+            "folderPath": "portfolio-ll\\src\\Components\\",
+            "color": "foldercolorizer.blue"
+        },
+        {
+            "folderPath": "portfolio-ll\\src\\Pages\\",
+            "color": "foldercolorizer.green"
+        },
+        {
+            "folderPath": "portfolio-ll\\src\\Assets\\sass\\",
+            "color": "foldercolorizer.Pink"
+        },
+        {
+            "folderPath": "portfolio-ll\\src\\Containers\\",
+            "color": "foldercolorizer.yellow"
+        },
+        {
+            "folderPath": "portfolio-ll\\src\\Datas\\",
+            "color": "foldercolorizer.Bronze"
+        }
+    ]
+}

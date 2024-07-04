@@ -4,6 +4,6 @@ import { Link } from 'react-router-dom'
 
 export default function CtaButton(data) {
   return (
-    <Link to='#' className='cta'>{data.title}</Link>
+    <Link to={data.link} className='cta'>{data.title}</Link>
   )
 }

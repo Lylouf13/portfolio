@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './home.scss'
 
-import CtaButton from '../../Components/CTA/CtaButton'
 
 export default function Home() {
   return (
@@ -38,7 +37,7 @@ export default function Home() {
           <Link className="home__container__cta" to="/games">Games</Link>
           <Link className="home__container__cta" to="/pixelart">Pixel Art</Link>
         </div>
-        <CtaButton title='Testerino'></CtaButton>
+
       </div>
     </section>
   )

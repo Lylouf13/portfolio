@@ -1,3 +1,5 @@
+@use'/src/Assets/sass/loader.scss';
+
 .viewer{
     position: fixed;
     display: flex;
@@ -35,5 +37,10 @@
         pointer-events: all;
         cursor: pointer;
         transition: all 0.4s;
+        .viewer{
+            &__image{
+                @include loader.anim-slideFromSide(-100px,3s, 1)
+            }
+        }
     }
 }
