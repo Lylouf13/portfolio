@@ -39,7 +39,7 @@
         transition: all 0.4s;
         .viewer{
             &__image{
-                @include loader.anim-slideFromSide(-100px,3s, 1)
+                @include loader.anim-slideFromSide(slideFromSideImageViewer, -100px,3s, 1)
             }
         }
     }

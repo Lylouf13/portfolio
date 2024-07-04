@@ -1,9 +1,8 @@
-@mixin slideFromSide($distance:null, $duration:null, $opacity:null){
-    animation-name: animation-slideFromSide;
+@mixin slideFromSide($name, $distance, $duration, $opacity){
+    animation-name: $name;
     animation-duration: $duration;
-    animation-fill-mode:forwards;
 
-    @keyframes animation-slideFromSide{
+    @keyframes #{$name}{
         0%{
             transform: translateX($distance);
             opacity: $opacity;
@@ -18,7 +17,7 @@
     }
 }
 
-@mixin slideFromHeight($distance:null, $duration:null, $opacity:null){
+@mixin slideFromHeight($distance, $duration, $opacity){
     animation-name: animation-slideFromHeight;
     animation-duration: $duration;
     animation-fill-mode:forwards;

@@ -2,7 +2,7 @@
 @use '/src/Assets/sass/variables';
 
 .projectCard{
-    @include loader.anim-slideFromSide(-900px, 3s, 1);
+    @include loader.anim-slideFromSide(slideFromSideGameCard, -900px, 3s, 1);
     @include loader.mixin-cardTitle(white, -50px, 50px);
 
     position: relative;
