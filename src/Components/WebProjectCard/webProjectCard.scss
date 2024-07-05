@@ -1,8 +1,9 @@
-@use "/src/assets/sass/loader.scss";
+@use "/src/assets/sass/mixins";
+@use "/src/assets/sass/animations";
 
 .webProjectCard{
-    @include loader.anim-slideFromHeight(300px,1.5s,1);
-    @include loader.mixin-cardTitle(black, -50px, 40px);
+    @include animations.slideFromHeight(300px,1.5s,1);
+    @include mixins.cardTitle(black, -50px, 40px);
 
     display: flex;
     justify-content: center;

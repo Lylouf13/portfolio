@@ -1,7 +1,7 @@
-@use '/src/Assets/sass/loader.scss';
+@use '/src/Assets/sass/mixins';
 
 .pixelCard{
-    @include loader.mixin-cardTitle(white, -50px, 40px);
+    @include mixins.cardTitle(white, -50px, 40px);
     
     position: relative;
     z-index: 0;

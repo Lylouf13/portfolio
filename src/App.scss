@@ -1,4 +1,4 @@
-@use 'src/assets/sass/loader';
+@use 'src/assets/sass/mixins';
 
 .main{
   display: flex;
@@ -11,7 +11,7 @@
     margin-bottom: 20px;
   }
   &__text{
-    @include loader.mixin-standardText;
+    @include mixins.standardText;
     margin-bottom: 10px;
   }
 }

@@ -1,9 +1,10 @@
-@use "/src/assets/sass/loader.scss";
+@use "/src/assets/sass/animations";
+@use "/src/assets/sass/mixins";
 @use '/src/Assets/sass/variables';
 
 .projectCard{
-    @include loader.anim-slideFromSide(slideFromSideGameCard, -900px, 3s, 1);
-    @include loader.mixin-cardTitle(white, -50px, 50px);
+    @include animations.slideFromSide(slideFromSideGameCard, -900px, 3s, 1);
+    @include mixins.cardTitle(white, -50px, 50px);
 
     position: relative;
     flex: 0 0 auto;

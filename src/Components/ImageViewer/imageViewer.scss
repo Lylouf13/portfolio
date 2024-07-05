@@ -1,4 +1,4 @@
-@use'/src/Assets/sass/loader.scss';
+@use'/src/Assets/sass/animations';
 
 .viewer{
     position: fixed;
@@ -39,7 +39,7 @@
         transition: all 0.4s;
         .viewer{
             &__image{
-                @include loader.anim-slideFromSide(slideFromSideImageViewer, -100px,3s, 1)
+                @include animations.slideFromSide(slideFromSideImageViewer, -100px,3s, 1)
             }
         }
     }

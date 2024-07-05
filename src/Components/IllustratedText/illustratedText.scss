@@ -1,4 +1,4 @@
-@use 'src/Assets/sass/loader';
+@use 'src/Assets/sass/mixins';
 
 .container{
     display: flex;
@@ -7,7 +7,7 @@
     align-items: center;
 
     &__text{
-        @include loader.mixin-standardText
+        @include mixins.standardText
     }
     &__image{
         width: 300px;

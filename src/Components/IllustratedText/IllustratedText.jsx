@@ -5,7 +5,7 @@ export default function IllustratedText(data) {
   return (
     <div className='container'>
         <p className='container__text'>{data.text}</p>
-        <img className='container__image' src={data.imageLink} />
+        <img className='container__image' src={data.imageLink} alt="" />
     </div>
   )
 }
