@@ -19,6 +19,10 @@
         {
             "folderPath": "portfolio-ll\\src\\Datas\\",
             "color": "foldercolorizer.Bronze"
+        },
+        {
+            "folderPath": "portfolio-ll\\src\\Assets\\sass\\Images\\",
+            "color": "foldercolorizer.Coral"
         }
     ]
 }
