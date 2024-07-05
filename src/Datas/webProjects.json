@@ -4,7 +4,7 @@
         "title": "Kasa",
         "cover": "/Portfolio/Assets/Images/Web/Kasa/kasa_thumb.png",
         "description": "Kasa project thumbnail",
-        "link": "/web/KasaProject",
+        "link": "/Portfolio/web/KasaProject",
         "technos": ["sass","react"]
     },
     {
@@ -12,7 +12,7 @@
         "title": "724Events",
         "cover": "/Portfolio/Assets/Images/Web/724Events/724events_thumb.png",
         "description": "Kasa project thumbnail",
-        "link": "/web/SevenEventsProject",
+        "link": "/Portfolio/web/SevenEventsProject",
         "technos": ["sass","react","js"]
     },
     {
@@ -20,7 +20,7 @@
         "title": "Booki",
         "cover": "/Portfolio/Assets/Images/Web/Kasa/kasa_thumb.png",
         "description": "Kasa project thumbnail",
-        "link": "/web/BookiProject",
+        "link": "/Portfolio/web/BookiProject",
         "technos": ["css","html"]
     },
     {
@@ -28,7 +28,7 @@
         "title": "Argent Bank",
         "cover": "/Portfolio/Assets/Images/Web/724Events/724events_thumb.png",
         "description": "Kasa project thumbnail",
-        "link": "/web/ArgentBankProject",
+        "link": "/Portfolio/web/ArgentBankProject",
         "technos": ["sass","react"]
     },
     {
@@ -36,7 +36,7 @@
         "title": "NinaCarducci",
         "cover": "/Portfolio/Assets/Images/Web/724Events/724events_thumb.png",
         "description": "Kasa project thumbnail",
-        "link": "/web/NinaCarducciProject",
+        "link": "/Portfolio/web/NinaCarducciProject",
         "technos": ["css","js"]
     },
     {
@@ -44,7 +44,7 @@
         "title": "SophieBluel",
         "cover": "/Portfolio/Assets/Images/Web/724Events/724events_thumb.png",
         "description": "Kasa project thumbnail",
-        "link": "/web/SophieBluelProject",
+        "link": "/Portfolio/web/SophieBluelProject",
         "technos": ["js","css"]
     },
     {
@@ -52,7 +52,7 @@
         "title": "OhMyFood",
         "cover": "/Portfolio/Assets/Images/Web/724Events/724events_thumb.png",
         "description": "Kasa project thumbnail",
-        "link": "/web/OhMyFoodProject",
+        "link": "/Portfolio/web/OhMyFoodProject",
         "technos": ["css","html"]
     }
 ]

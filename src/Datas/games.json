@@ -4,42 +4,42 @@
         "title": "Ether",
         "cover": "/Portfolio/Assets/Images/Games/Ether/Ether_2.jpg",
         "description": "Thumbnail ether project",
-        "link": "/games/EtherProject"
+        "link": "/Portfolio/games/EtherProject"
     },
     {
         "id": "2",
         "title": "Color Damage",
         "cover": "/Portfolio/Assets/Images/Games/ColorDamage/CD_7.png",
         "description": "Thumbnail Color Damage project",
-        "link": "/games/ColorDamageProject"
+        "link": "/Portfolio/games/ColorDamageProject"
     },
     {
         "id": "3",
         "title": "Rise From Hell",
         "cover": "/Portfolio/Assets/Images/Games/RiseFromHell/theo-foray-combat1-1920x1080p.jpg",
         "description": "Thumbnail Rise From Hell project",
-        "link": "/games/RiseFromHellProject"
+        "link": "/Portfolio/games/RiseFromHellProject"
     },
     {
         "id": "4",
         "title": "Ether Genesis",
         "cover": "/Portfolio/Assets/Images/Games/EtherGenesis/EtherGenesisTitle.png",
         "description": "Thumbnail Ether Genesis project",
-        "link": "/games/EtherGenesisProject"
+        "link": "/Portfolio/games/EtherGenesisProject"
     },
     {
         "id": "5",
         "title": "Apple On The Walls",
         "cover": "/Portfolio/Assets/Images/Games/AOTW/AOTW_1.png",
         "description": "Thumbnail Apple On The Walls Project",
-        "link": "/games/AOTWProject"
+        "link": "/Portfolio/games/AOTWProject"
     },
     {
         "id": "6",
         "title": "Lighty",
         "cover": "/Portfolio/Assets/Images/Games/Lighty/lighty_1.jpg",
         "description": "Thumbnail Lighty Project",
-        "link": "/games/LightyProject"
+        "link": "/Portfolio/games/LightyProject"
     }
 
 
