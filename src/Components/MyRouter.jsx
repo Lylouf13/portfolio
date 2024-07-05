@@ -27,25 +27,25 @@ import OhMyFoodProject from '../Pages/Web/Projects/OhMyFood/OhMyFood.jsx'
 export default function Router() {
   return (
     <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/web" element={<Web/>}>
-            <Route path="/web/BookiProject" element={<BookiProject/>}/>
-            <Route path="/web/KasaProject" element={<KasaProject/>}/>
-            <Route path="/web/SevenEventsProject" element={<SevenEventsProject/>}/>
-            <Route path="/web/ArgentBankProject" element={<ArgentBankProject/>}/>
-            <Route path="/web/NinaCarducciProject" element={<NinaCarducciProject/>}/>
-            <Route path="/web/SophieBluelProject" element={<SophieBluelProject/>}/>
-            <Route path="/web/OhMyFoodProject" element={<OhMyFoodProject/>}/>
+        <Route path="/Portfolio" element={<Home/>}/>
+        <Route path="/Portfolio/web" element={<Web/>}>
+            <Route path="/Portfolio/web/BookiProject" element={<BookiProject/>}/>
+            <Route path="/Portfolio/web/KasaProject" element={<KasaProject/>}/>
+            <Route path="/Portfolio/web/SevenEventsProject" element={<SevenEventsProject/>}/>
+            <Route path="/Portfolio/web/ArgentBankProject" element={<ArgentBankProject/>}/>
+            <Route path="/Portfolio/web/NinaCarducciProject" element={<NinaCarducciProject/>}/>
+            <Route path="/Portfolio/web/SophieBluelProject" element={<SophieBluelProject/>}/>
+            <Route path="/Portfolio/web/OhMyFoodProject" element={<OhMyFoodProject/>}/>
         </Route>
-        <Route path="/games" element={<Games/>}>
-            <Route path="/games/EtherProject" element={<EtherProject/>}/>
-            <Route path="/games/ColorDamageProject" element={<ColorDamageProject/>}/>
-            <Route path="/games/RiseFromHellProject" element={<RiseFromHellProject/>}/>
-            <Route path="/games/EtherGenesisProject" element={<EtherGenesisProject/>}/>
-            <Route path="/games/AotwProject" element={<AotwProject/>}/>
-            <Route path="/games/LightyProject" element={<LightyProject/>}/>
+        <Route path="/Portfolio/games" element={<Games/>}>
+            <Route path="/Portfolio/games/EtherProject" element={<EtherProject/>}/>
+            <Route path="/Portfolio/games/ColorDamageProject" element={<ColorDamageProject/>}/>
+            <Route path="/Portfolio/games/RiseFromHellProject" element={<RiseFromHellProject/>}/>
+            <Route path="/Portfolio/games/EtherGenesisProject" element={<EtherGenesisProject/>}/>
+            <Route path="/Portfolio/games/AotwProject" element={<AotwProject/>}/>
+            <Route path="/Portfolio/games/LightyProject" element={<LightyProject/>}/>
         </Route>
-        <Route path="/pixelart" element={<PixelArt/>}/>
+        <Route path="/Portfolio/pixelart" element={<PixelArt/>}/>
     </Routes>
     )
 }
