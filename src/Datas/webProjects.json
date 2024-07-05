@@ -2,7 +2,7 @@
     {
         "id": "1",
         "title": "Kasa",
-        "cover": "/Assets/Web/Kasa/kasa_thumb.png",
+        "cover": "/Portfolio/Assets/Images/Web/Kasa/kasa_thumb.png",
         "description": "Kasa project thumbnail",
         "link": "/web/KasaProject",
         "technos": ["sass","react"]
@@ -10,7 +10,7 @@
     {
         "id": "2",
         "title": "724Events",
-        "cover": "/Assets/Web/724Events/724events_thumb.png",
+        "cover": "/Portfolio/Assets/Images/Web/724Events/724events_thumb.png",
         "description": "Kasa project thumbnail",
         "link": "/web/SevenEventsProject",
         "technos": ["sass","react","js"]
@@ -18,7 +18,7 @@
     {
         "id": "3",
         "title": "Booki",
-        "cover": "/Assets/Web/Kasa/kasa_thumb.png",
+        "cover": "/Portfolio/Assets/Images/Web/Kasa/kasa_thumb.png",
         "description": "Kasa project thumbnail",
         "link": "/web/BookiProject",
         "technos": ["css","html"]
@@ -26,7 +26,7 @@
     {
         "id": "4",
         "title": "Argent Bank",
-        "cover": "/Assets/Web/724Events/724events_thumb.png",
+        "cover": "/Portfolio/Assets/Images/Web/724Events/724events_thumb.png",
         "description": "Kasa project thumbnail",
         "link": "/web/ArgentBankProject",
         "technos": ["sass","react"]
@@ -34,7 +34,7 @@
     {
         "id": "5",
         "title": "NinaCarducci",
-        "cover": "/Assets/Web/724Events/724events_thumb.png",
+        "cover": "/Portfolio/Assets/Images/Web/724Events/724events_thumb.png",
         "description": "Kasa project thumbnail",
         "link": "/web/NinaCarducciProject",
         "technos": ["css","js"]
@@ -42,7 +42,7 @@
     {
         "id": "6",
         "title": "SophieBluel",
-        "cover": "/Assets/Web/724Events/724events_thumb.png",
+        "cover": "/Portfolio/Assets/Images/Web/724Events/724events_thumb.png",
         "description": "Kasa project thumbnail",
         "link": "/web/SophieBluelProject",
         "technos": ["js","css"]
@@ -50,7 +50,7 @@
     {
         "id": "7",
         "title": "OhMyFood",
-        "cover": "/Assets/Web/724Events/724events_thumb.png",
+        "cover": "/Portfolio/Assets/Images/Web/724Events/724events_thumb.png",
         "description": "Kasa project thumbnail",
         "link": "/web/OhMyFoodProject",
         "technos": ["css","html"]

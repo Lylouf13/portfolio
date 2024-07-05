@@ -26,7 +26,7 @@ import OhMyFoodProject from '../Pages/Web/Projects/OhMyFood/OhMyFood.jsx'
 
 export default function Router() {
   return (
-    <Routes>
+    <Routes basename="/Portfolio">
         <Route path="/Portfolio" element={<Home/>}/>
         <Route path="/Portfolio/web" element={<Web/>}>
             <Route path="/Portfolio/web/BookiProject" element={<BookiProject/>}/>
