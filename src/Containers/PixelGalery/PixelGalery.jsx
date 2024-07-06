@@ -12,10 +12,10 @@ export default function PixelGalery() {
     function closeViewer(){
       setViewerOpen(false)
     }
-    function setViewer(image,title){
+    function setViewer(image,title,open){
       setFocusImage(image)
       setFocusTitle(title)
-      setViewerOpen(true)
+      setViewerOpen(open)
     }
 
   return (

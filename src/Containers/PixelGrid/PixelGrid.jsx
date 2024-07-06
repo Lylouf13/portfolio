@@ -8,7 +8,7 @@ import './pixelGrid.scss'
 export default function PixelGrid(set) {
     const used = (data.find((e) => e.type === set.type))
    return (     
-     <div className='pixelGrid'>
+     <ul className='pixelGrid'>
          {used.elements.map((art) =>
              <PixelCard 
              usable={set.usable}
@@ -23,7 +23,7 @@ export default function PixelGrid(set) {
              />
              )
          }   
-     </div>  
+     </ul>  
      )
  }
  
