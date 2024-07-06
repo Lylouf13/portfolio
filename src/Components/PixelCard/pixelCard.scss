@@ -18,7 +18,7 @@
         pointer-events: none;
     }
 
-    &:hover{
+    &:focus-visible, &:hover{
         border-radius: 10px 10px 20px 20px;
         z-index: 5;
 
