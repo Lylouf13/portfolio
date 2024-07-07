@@ -22,20 +22,21 @@
     },
     {
         "id": "4",
-        "title": "Dreamer's Paradigm",
-        "image": "/Portfolio/Assets/Images/PixelArt/Static/pix_4.png",
-        "description": "Thumbnail ether project"
-    },
-    {
-        "id": "5",
         "title": "Light Up",
         "image": "/Portfolio/Assets/Images/PixelArt/Static/pix_5.png",
         "description": "Thumbnail ether project"
     },
     {
-        "id": "6",
+        "id": "5",
         "title": "Ancient Ruins",
         "image": "/Portfolio/Assets/Images/PixelArt/Static/pix_6.png",
+        "description": "Thumbnail ether project"
+    },
+    {
+        "id": "6",
+        "title": "Dreamer's Paradigm",
+
+        "image": "/Portfolio/Assets/Images/PixelArt/Static/pix_4.png",
         "description": "Thumbnail ether project"
     },
     {
@@ -112,14 +113,14 @@
     },
     {
         "id": "19",
-        "title": "Sailor's Port",
-        "image": "/Portfolio/Assets/Images/PixelArt/Static/pix_19.png",
+        "title": "Longbeak Portal",
+        "image": "/Portfolio/Assets/Images/PixelArt/Static/pix_20.png",
         "description": "Thumbnail ether project"
     },
     {
         "id": "20",
-        "title": "Longbeak Portal",
-        "image": "/Portfolio/Assets/Images/PixelArt/Static/pix_20.png",
+        "title": "Sailor's Port",
+        "image": "/Portfolio/Assets/Images/PixelArt/Static/pix_19.png",
         "description": "Thumbnail ether project"
     }
     ]},
@@ -134,8 +135,8 @@
         },
         {
             "id": "2",
-            "title": "Pirate Ship Movement",
-            "image": "/Portfolio/Assets/Images/PixelArt/Anim/pixAnim_2.gif",
+            "title": "Mercenary Traversal",
+            "image": "/Portfolio/Assets/Images/PixelArt/Anim/pixAnim_5.gif",
             "description": "Thumbnail ether project"
         },
         {
@@ -152,14 +153,14 @@
         },
         {
             "id": "5",
-            "title": "Mercenary Traversal",
-            "image": "/Portfolio/Assets/Images/PixelArt/Anim/pixAnim_5.gif",
+            "title": "Arachnophobia",
+            "image": "/Portfolio/Assets/Images/PixelArt/Anim/pixAnim_8.gif",
             "description": "Thumbnail ether project"
         },
         {
             "id": "6",
-            "title": "Floating Shopkeeper",
-            "image": "/Portfolio/Assets/Images/PixelArt/Anim/pixAnim_6.gif",
+            "title": "Pirate Ship Movement",
+            "image": "/Portfolio/Assets/Images/PixelArt/Anim/pixAnim_2.gif",
             "description": "Thumbnail ether project"
         },
         {
@@ -170,8 +171,8 @@
         },
         {
             "id": "8",
-            "title": "Arachnophobia",
-            "image": "/Portfolio/Assets/Images/PixelArt/Anim/pixAnim_8.gif",
+            "title": "Floating Shopkeeper",
+            "image": "/Portfolio/Assets/Images/PixelArt/Anim/pixAnim_6.gif",
             "description": "Thumbnail ether project"
         }
     ] }

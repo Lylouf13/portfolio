@@ -12,7 +12,7 @@
             grid-column-start: 1;
             grid-column-end: 3;
         }
-        &-4{
+        &-6{
             grid-column-start: 2;
             grid-column-end: 4;
             grid-row-start: 2;
@@ -36,7 +36,7 @@
             grid-row-start: 6;
             grid-row-end: 7;
         }
-        &-19{
+        &-20{
             grid-column-start: 4;
             grid-column-end: 6;
             grid-row-start: 5;
@@ -49,6 +49,14 @@
             grid-column-end: 3;
             grid-row-start: 1;
             grid-row-end: 3;
+        }
+        //merc
+        &-2{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 3;
+
         }
         // grimm
         &-3{
@@ -64,27 +72,19 @@
             grid-row-start: 3;
             grid-row-end: 5;
         }
-        //merc
-        &-5{
-            grid-column-start: 3;
-            grid-column-end: 4;
-            grid-row-start: 1;
-            grid-row-end: 3;
-
-        }
-        // shopkeeper
-        &-6{
-            grid-column-start: 4;
-            grid-column-end: 6;
-            grid-row-start: 4;
-            grid-row-end: 5;
-        }
         // arachnophobia
-        &-8{
+        &-5{
             grid-column-start: 3;
             grid-column-end: 5;
             grid-row-start: 3;
             grid-row-end: 4;
+        }
+        // shopkeeper
+        &-8{
+            grid-column-start: 4;
+            grid-column-end: 6;
+            grid-row-start: 4;
+            grid-row-end: 5;
         }
     }
 }
