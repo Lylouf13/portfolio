@@ -1,12 +1,15 @@
-import React from 'react'
+import {React} from 'react'
 
 import '../webProjects.scss'
 
 import IllustratedText from '../../../../Components/IllustratedText/IllustratedText'
 import ProjectImage from '../../../../Components/ProjectImage/ProjectImage'
 import ProjectText from '../../../../Components/ProjectText/ProjectText'
+import ProjectSkills from '../../../../Components/ProjectSkills/ProjectSkills'
+
 
 export default function Booki() {
+
   return (
     <section className='webProject'>
       <h1 className='webProject__title'>Booki</h1>
@@ -20,15 +23,15 @@ export default function Booki() {
           petite base de code concernant les cards utilisées dans la section Hébergements du site. 
           `}
       />
-      <ProjectImage image={'/Portfolio/Assets/Images/Web/Booki/booki_1.png'} title={"L'incroyable searchbarTM de BookiTM"}/>
+      <ProjectImage image={'/Portfolio/Assets/Images/Web/Booki/booki_1.png'} title={"La section recherche du site, avec un input utilisateur et des éléments de filtrage"}/>
       <ProjectText 
         text=
           {`Booki a majoritairement été constitué de tests d'utilisation de flexbox, qui permet de créer la majorité éléments intégrés.
             La searchbar s'est révélée être l'élément le plus technique à intégrer pour obtenir le rendu seamless entre les différents éléments.
           `}
       />
-      <ProjectImage image={'/Portfolio/Assets/Images/Web/Booki/booki_2.png'} title={"La Formidable section hébergements"}/>
-      <ProjectImage image={'/Portfolio/Assets/Images/Web/Booki/booki_3.png'} title={"Les Merveilleuses Activités de Marseille"}/>
+      <ProjectImage image={'/Portfolio/Assets/Images/Web/Booki/booki_2.png'} title={"La section hébergements du site, un découpage en cards des différents locations"}/>
+      <ProjectImage image={'/Portfolio/Assets/Images/Web/Booki/booki_3.png'} title={"Les cards d'activité du site, emphase mise sur les images des activités"}/>
       <ProjectText 
         text=
           {`Les sections Hébergements et Activités utilisent une base de code similaire pour les cards, avec une emphase mise respectivement sur
@@ -36,36 +39,38 @@ export default function Booki() {
             d'activités pour apporter un peu de dynamisme au projet.
           `}
       />
-      <ProjectImage image={'/Portfolio/Assets/Images/Web/Booki/booki_4.png'} title={"Le footer"}/>
+      <ProjectImage image={'/Portfolio/Assets/Images/Web/Booki/booki_4.png'} title={"Le footer du site, un assemblage de plusieurs blocs d'éléments de navigation"}/>
 
       <ProjectText 
         title={'Responsive | Tablette'}
         text=
           {`La dernière partie de ce projet a été l'intégration de media queries pour permettre un affichage adapté sur les supports tablettes puis mobile.
             La version tablette reste très proche du desktop, mis à part quelques changements de taille d'éléments, la modification la plus visible est le
-            passage en colonne des deux parties de la section Hébergements
+            passage en colonne des deux parties de la section Hébergements.
           `}
       />
-            <ProjectImage image={'/Portfolio/Assets/Images/Web/Booki/booki_5.png'} title={"Intégration responsive tablette"}/>
+            <ProjectImage image={'/Portfolio/Assets/Images/Web/Booki/booki_5.png'} title={"Intégration responsive tablette des hébergements"}/>
 
       <ProjectText 
         title={'Responsive | Mobile'}
         text=
           {`La version mobile quant à elle est intégralement modifiée en colonne pour s'adapter à l'usage mobile. Les sections "Hébergements" et "Les plus
             populaires" y sont inversées et les cards Hébergement mettent un peu plus l'emphase sur l'image. La partie recherche quant à elle est remaniée,
-            le bouton de recherche de la searchbar est remplacé par un autre avec une icone, et l'affichage des filtre est modifié
+            le bouton de recherche de la searchbar est remplacé par un autre avec une icone, et l'affichage des filtre est modifié.
           `}
       />
       <div className='webProject__container webProject__container-row'>
-        <ProjectImage image={'/Portfolio/Assets/Images/Web/Booki/booki_6.png'} title={"Intégration responsive mobile"}/>
-        <ProjectImage image={'/Portfolio/Assets/Images/Web/Booki/booki_7.png'} title={"Intégration responsive mobile"}/>
-        <ProjectImage image={'/Portfolio/Assets/Images/Web/Booki/booki_8.png'} title={"Intégration responsive mobile"}/>
+        <ProjectImage image={'/Portfolio/Assets/Images/Web/Booki/booki_6.png'} title={"Responsive mobile de la recherche"}/>
+        <ProjectImage image={'/Portfolio/Assets/Images/Web/Booki/booki_7.png'} title={"Responsive mobile des plus populaires"}/>
+        <ProjectImage image={'/Portfolio/Assets/Images/Web/Booki/booki_8.png'} title={"Responsive mobile des hébergements"}/>
       </div>
       <ProjectText 
         text=
-          {`Ce projet a été une excellente introduction à de nombreux concepts d'intégration, centré sur CSS et les logiques de boites HTMl
+          {`Ce projet a été une excellente introduction à de nombreux concepts d'intégration. L'absence de gestion de base de données
+            ou de lien avec des data sous un quelconque format a permi de se concentrer sur la CSS et les logiques de boites du HTML. 
           `}
       />
+      <ProjectSkills skills={["dd", "ddd", "dddddd", "e"]}/>
     </section>
   )
 }

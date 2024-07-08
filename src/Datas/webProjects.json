@@ -9,7 +9,7 @@
     },
     {
         "id": "2",
-        "title": "724Events",
+        "title": "724 Events",
         "cover": "/Portfolio/Assets/Images/Web/724Events/724events_thumb.png",
         "description": "Kasa project thumbnail",
         "link": "/Portfolio/web/SevenEventsProject",
@@ -18,7 +18,7 @@
     {
         "id": "3",
         "title": "Booki",
-        "cover": "/Portfolio/Assets/Images/Web/Kasa/kasa_thumb.png",
+        "cover": "/Portfolio/Assets/Images/Web/Booki/booki_thumb.png",
         "description": "Kasa project thumbnail",
         "link": "/Portfolio/web/BookiProject",
         "technos": ["css","html"]
@@ -26,23 +26,23 @@
     {
         "id": "4",
         "title": "Argent Bank",
-        "cover": "/Portfolio/Assets/Images/Web/724Events/724events_thumb.png",
+        "cover": "/Portfolio/Assets/Images/Web/ArgentBank/argentBank_thumb.png",
         "description": "Kasa project thumbnail",
         "link": "/Portfolio/web/ArgentBankProject",
         "technos": ["sass","react"]
     },
     {
         "id": "5",
-        "title": "NinaCarducci",
-        "cover": "/Portfolio/Assets/Images/Web/724Events/724events_thumb.png",
+        "title": "Nina Carducci",
+        "cover": "/Portfolio/Assets/Images/Web/NinaCarducci/ninaCarducci_thumb.png",
         "description": "Kasa project thumbnail",
         "link": "/Portfolio/web/NinaCarducciProject",
         "technos": ["css","js"]
     },
     {
         "id": "6",
-        "title": "SophieBluel",
-        "cover": "/Portfolio/Assets/Images/Web/724Events/724events_thumb.png",
+        "title": "Sophie Bluel",
+        "cover": "/Portfolio/Assets/Images/Web/SophieBluel/sophieBluel_thumb.png",
         "description": "Kasa project thumbnail",
         "link": "/Portfolio/web/SophieBluelProject",
         "technos": ["js","css"]
@@ -50,7 +50,7 @@
     {
         "id": "7",
         "title": "OhMyFood",
-        "cover": "/Portfolio/Assets/Images/Web/724Events/724events_thumb.png",
+        "cover": "/Portfolio/Assets/Images/Web/OhMyFood/ohMyFood_thumb.png",
         "description": "Kasa project thumbnail",
         "link": "/Portfolio/web/OhMyFoodProject",
         "technos": ["css","html"]

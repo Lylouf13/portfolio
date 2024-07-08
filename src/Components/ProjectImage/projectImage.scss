@@ -1,3 +1,4 @@
+@use'/src/Assets/sass/variables';
 .projectView{
     display: flex;
     flex-direction: column;
@@ -13,6 +14,7 @@
     }
     &__title{
         margin-top: 20px;
+        color: variables.$color_main;
         font-weight: 400;
         font-style: italic;
         
