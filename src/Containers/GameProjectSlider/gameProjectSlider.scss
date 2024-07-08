@@ -1,6 +1,6 @@
-@use '../../Assets/sass/animations';
 
 .projectSlider{
+    scroll-behavior: auto !important; 
     display: flex;
     flex-direction: row;
     gap: 30px;
