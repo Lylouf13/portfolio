@@ -9,10 +9,11 @@
         font-size: 50px;
     }
     &__container{
+        width: 75%;
         display: flex;
         &-row{
             flex-direction: row;
-            align-items: flex-start;
+            align-items:flex-start;
             object-fit: contain;
             flex:1;
         }
