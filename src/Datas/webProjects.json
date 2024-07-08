@@ -10,7 +10,7 @@
     {
         "id": "2",
         "title": "724 Events",
-        "cover": "/Portfolio/Assets/Images/Web/724Events/724events_thumb.png",
+        "cover": "/Portfolio/Assets/Images/Web/724Events/724Events_thumb.png",
         "description": "Kasa project thumbnail",
         "link": "/Portfolio/web/SevenEventsProject",
         "technos": ["sass","react","js"]
