@@ -1,0 +1,15 @@
+@use '/src/Assets/sass/variables';
+
+.projectText{
+    box-sizing: border-box;
+    width: 60%;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 22px;
+
+    &__title{
+        font-size: 30px;
+        padding-left: 18px;
+        border-left: 8px solid variables.$color_secondary;
+    }
+}
