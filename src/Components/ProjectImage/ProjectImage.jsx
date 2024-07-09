@@ -3,9 +3,9 @@ import './projectImage.scss'
 
 export default function ProjectImage(props) {
   return (
-    <div className='projectView'>
+    <figure className='projectView'>
         <img className='projectView__image'src={props.image}/>
-        <h3 className='projectView__title'>{props.title}</h3>
-    </div>
+        <figcaption className='projectView__title'>{props.title}</figcaption>
+    </figure>
   )
 }

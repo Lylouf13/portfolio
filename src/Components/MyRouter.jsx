@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 
 // Base
 import Home from '../Pages/Home/Home.jsx'
-import Web from '../Pages/Web.jsx'
+import Web from '../Pages/Web/Web.jsx'
 import Games from '../Pages/Games/Games.jsx'
 import PixelArt from '../Pages/PixelArt.jsx'
 

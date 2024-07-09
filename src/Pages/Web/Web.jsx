@@ -1,6 +1,6 @@
-import {React, useState} from 'react'
+import {React} from 'react'
 import { Outlet } from 'react-router-dom'
-import WebProjects from '../Containers/WebProjects/WebProjects'
+import WebProjects from '../../Containers/WebProjects/WebProjects'
 
 export default function Web() {
   return (
