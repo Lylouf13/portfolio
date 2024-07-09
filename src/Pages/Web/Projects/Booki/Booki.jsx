@@ -2,7 +2,6 @@ import {React} from 'react'
 
 import '../webProjects.scss'
 
-import IllustratedText from '../../../../Components/IllustratedText/IllustratedText'
 import ProjectImage from '../../../../Components/ProjectImage/ProjectImage'
 import ProjectText from '../../../../Components/ProjectText/ProjectText'
 import ProjectSkills from '../../../../Components/ProjectSkills/ProjectSkills'

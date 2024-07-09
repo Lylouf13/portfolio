@@ -5,9 +5,9 @@ import IllustratedText from '../../../../Components/IllustratedText/IllustratedT
 
 export default function SophieBluel() {
   return (
-    <div className='webProject'>
+    <section className='webProject'>
       <h1 className='webProject__title'>Sophie Bluel</h1>
       <IllustratedText text={"dededede"} imageLink={'/Assets/Web/724Events/724events_thumb.png'} />
-    </div>
+    </section>
   )
 }
