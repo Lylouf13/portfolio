@@ -11,7 +11,7 @@ export default function OhMyFood() {
       <h1 className='webProject__title'>Ohmyfood</h1>
       <ProjectText 
         title={'Approche Mobile-first'}
-        text={`Ohmyfood est un site développé principalement pour des utilisateurs mobile, c'est donc naturellement que le développement
+        text={`Le site d'Ohmyfood est développé principalement pour des utilisateurs mobile, c'est donc naturellement que le développement
           et l'intégration des différents éléments ont démarré sur les formats mobiles, et ont ensuite été déployé vers le desktop`} 
       />
       <div className='webProject__container webProject__container-row'>

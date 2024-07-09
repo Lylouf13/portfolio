@@ -5,9 +5,10 @@ import './webProjectCard.scss'
 
 export default function WebProjectCard(data) {
   const handleOnClick= ()=>{
-    setTimeout(scrollToProject, 100)
+    setTimeout(scrollToProject, 0)
   }
   const scrollToProject=()=>{
+    // Faire des tests avec element.scrollIntoView
     window.scroll(0, 300)
   }
 
