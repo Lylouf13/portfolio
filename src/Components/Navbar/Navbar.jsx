@@ -5,7 +5,6 @@ import { Link, useLocation } from 'react-router-dom'
 
 export default function Navbar() {
   const location = useLocation()
-  console.log(location)
   return (
     <nav className='navbar'>
         <Link to="/Portfolio" className={`navbar__link ${location.pathname==="/Portfolio"? "navbar__link-current" : ""}`}>Home</Link>

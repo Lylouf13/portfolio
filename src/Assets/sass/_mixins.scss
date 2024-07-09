@@ -1,7 +1,9 @@
+@use './variables';
+
 @mixin standardText{
     box-sizing: border-box;
-    width: 600px;
-    font-size: 18px;
+    width: 50%;
+    font-size: 20px;
     text-align: justify;
     line-height: 30px;
 }
@@ -25,4 +27,10 @@
         opacity: 0;
         transition: all 0.5s;
     }
+}
+    
+@mixin projectSubtitle{
+    font-size: 28px;
+    padding-left: 18px;
+    border-left: 8px solid variables.$color_secondary;
 }

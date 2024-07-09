@@ -1,15 +1,10 @@
 @use '/src/Assets/sass/variables';
+@use '/src/Assets/sass/mixins';
 
 .projectText{
-    box-sizing: border-box;
-    width: 50%;
-    text-align: justify;
-    line-height: 30px;
-    font-size: 22px;
+    @include mixins.standardText;
 
     &__title{
-        font-size: 30px;
-        padding-left: 18px;
-        border-left: 8px solid variables.$color_secondary;
+        @include mixins.projectSubtitle;
     }
 }

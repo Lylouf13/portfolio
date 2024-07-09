@@ -70,7 +70,7 @@ export default function Booki() {
             ou de lien avec des data sous un quelconque format a permi de se concentrer sur la CSS et les logiques de boites du HTML. 
           `}
       />
-      <ProjectSkills skills={["dd", "ddd", "dddddd", "e"]}/>
+      <ProjectSkills title='Compétences associées' skills={["dd", "ddd", "dddddd", "e"]}/>
     </section>
   )
 }

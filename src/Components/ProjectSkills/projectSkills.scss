@@ -1,0 +1,10 @@
+@use '/src/Assets/sass/mixins';
+
+.projectSkills{
+    &__title{
+        @include mixins.projectSubtitle;
+    }
+    &__element{
+        font-size: 22px;
+    }
+}
