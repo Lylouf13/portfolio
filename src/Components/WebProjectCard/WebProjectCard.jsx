@@ -4,12 +4,21 @@ import { Link } from 'react-router-dom'
 import './webProjectCard.scss'
 
 export default function WebProjectCard(data) {
-  const handleOnClick= ()=>{
-    setTimeout(scrollToProject, 0)
+  const handleOnClick= (e)=>{
+                    // event => CARD_IMAGE => CARD => CARD CONTAINER 
+    const container = e.target.parentNode.parentNode.parentNode
+
+    // Calculates distance from click position to the end of the cards container, based on container rendered height
+    const basePos = e.pageY
+    const endPos = e.pageY+((container.clientHeight) - (e.pageY - container.offsetTop))
+    setTimeout(scrollToProject(basePos,endPos), 100)
+
+
   }
-  const scrollToProject=()=>{
+  const scrollToProject=(start, end)=>{
     // Faire des tests avec element.scrollIntoView
-    window.scroll(0, 300)
+    //console.log(start, end)
+    window.scroll(start, end)
   }
 
   return (
