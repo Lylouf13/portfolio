@@ -1,8 +1,18 @@
 import {React, useEffect} from 'react'
-import { Outlet } from 'react-router-dom'
+import { Outlet, useLocation } from 'react-router-dom'
 import WebProjects from '../../Containers/WebProjects/WebProjects'
 
+
 export default function Web() {
+
+const location = useLocation()
+
+useEffect(() => {
+    const element = document.getElementById(location.hash)
+    if (element) {
+      element.scrollIntoView(true);
+    } 
+})
   return (
     <main>
       <section className='main'>

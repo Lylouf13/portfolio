@@ -6,7 +6,7 @@ import IllustratedText from '../../../../Components/IllustratedText/IllustratedT
 export default function SevenEvents() {
   return (
     <section className='webProject'>
-      <h1 className='webProject__title'>724 Events</h1>
+      <h1 id='#title' className='webProject__title'>724 Events</h1>
       <IllustratedText text={"dededede"} imageLink={'/Assets/Web/724Events/724events_thumb.png'} />
     </section>
   )
