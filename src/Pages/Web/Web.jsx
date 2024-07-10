@@ -30,7 +30,7 @@ useEffect(() => {
       <nav>
           <WebProjects/>
       </nav>
-      <section id='project'>
+      <section>
         <Outlet />
       </section>
     </main>
