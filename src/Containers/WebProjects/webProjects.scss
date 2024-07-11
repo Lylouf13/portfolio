@@ -1,3 +1,4 @@
+@use '/src/Assets/sass/variables';
 .webProjects{
     display: flex;
     flex-direction: row;
@@ -10,4 +11,7 @@
     padding-bottom: 10px;
     padding-top: 10px;
     gap: 20px;
+    @media screen and (max-width: variables.$screenWidth_mobile){
+        margin: 0;
+    }
 }

@@ -6,6 +6,9 @@
     font-size: 20px;
     text-align: justify;
     line-height: 30px;
+    @media screen and (max-width: variables.$screenWidth_mobile){
+        width: 80%;
+    }
 }
 
 @mixin cardTitle ($textColor, $startPosition, $fontSize){
@@ -52,8 +55,13 @@
     &__title{
         margin-top: 20px;
         color: variables.$color_main;
+        font-size: 20px;
         font-weight: 400;
         font-style: italic;
         
+    }
+    @media screen and (max-width: variables.$screenWidth_mobile){
+        margin: 0;
+        width: 80%;
     }
 }

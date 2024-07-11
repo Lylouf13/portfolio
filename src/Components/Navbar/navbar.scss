@@ -32,4 +32,15 @@
             transition: all 0.5s;
         }
     }
+    @media screen and (max-width: variables.$screenWidth_mobile) {
+        position: static;
+        margin-top: 10px;
+        background-color: white;
+        flex-wrap: wrap;
+        gap: 20px;
+        &__link{
+            height: 75px;
+            width: 45%;
+        }
+    }
 }

@@ -1,90 +1,102 @@
+@use '/src/Assets/sass/variables';
+
 .pixelGrid{
     display: grid;
     margin: auto;
     margin-bottom: 50px;
+    padding: 0;
     max-width: 70%;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-auto-rows: 350px;
     gap: 10px;
 
-    &__static{
-        &-1{
-            grid-column-start: 1;
-            grid-column-end: 3;
+    // Desktop Grid composition 
+    @media screen and (min-width: variables.$screenWidth_desktop){
+        &__static{
+            &-1{
+                grid-column-start: 1;
+                grid-column-end: 3;
+            }
+            &-6{
+                grid-column-start: 2;
+                grid-column-end: 4;
+                grid-row-start: 2;
+                grid-row-end: 4;
+            }
+            &-10{
+                grid-column-start: 4;
+                grid-column-end: 6;
+                grid-row-start: 3;
+                grid-row-end: 3;
+            }
+            &-13{
+                grid-column-start: 3;
+                grid-column-end: 4;
+                grid-row-start: 4;
+                grid-row-end: 6;
+            }
+            &-18{
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 6;
+                grid-row-end: 7;
+            }
+            &-20{
+                grid-column-start: 4;
+                grid-column-end: 6;
+                grid-row-start: 5;
+                grid-row-end: 7;
+            }
         }
-        &-6{
-            grid-column-start: 2;
-            grid-column-end: 4;
-            grid-row-start: 2;
-            grid-row-end: 4;
-        }
-        &-10{
-            grid-column-start: 4;
-            grid-column-end: 6;
-            grid-row-start: 3;
-            grid-row-end: 3;
-        }
-        &-13{
-            grid-column-start: 3;
-            grid-column-end: 4;
-            grid-row-start: 4;
-            grid-row-end: 6;
-        }
-        &-18{
-            grid-column-start: 1;
-            grid-column-end: 3;
-            grid-row-start: 6;
-            grid-row-end: 7;
-        }
-        &-20{
-            grid-column-start: 4;
-            grid-column-end: 6;
-            grid-row-start: 5;
-            grid-row-end: 7;
+        &__anim{
+            &-1{
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 1;
+                grid-row-end: 3;
+            }
+            //merc
+            &-2{
+                grid-column-start: 3;
+                grid-column-end: 4;
+                grid-row-start: 1;
+                grid-row-end: 3;
+
+            }
+            // grimm
+            &-3{
+                grid-column-start: 4;
+                grid-column-end: 6;
+                grid-row-start: 1;
+                grid-row-end: 3;
+            }
+            // playerBoat
+            &-4{
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 3;
+                grid-row-end: 5;
+            }
+            // arachnophobia
+            &-5{
+                grid-column-start: 3;
+                grid-column-end: 5;
+                grid-row-start: 3;
+                grid-row-end: 4;
+            }
+            // shopkeeper
+            &-8{
+                grid-column-start: 4;
+                grid-column-end: 6;
+                grid-row-start: 4;
+                grid-row-end: 5;
+            }
         }
     }
-    &__anim{
-        &-1{
-            grid-column-start: 1;
-            grid-column-end: 3;
-            grid-row-start: 1;
-            grid-row-end: 3;
-        }
-        //merc
-        &-2{
-            grid-column-start: 3;
-            grid-column-end: 4;
-            grid-row-start: 1;
-            grid-row-end: 3;
-
-        }
-        // grimm
-        &-3{
-            grid-column-start: 4;
-            grid-column-end: 6;
-            grid-row-start: 1;
-            grid-row-end: 3;
-        }
-        // playerBoat
-        &-4{
-            grid-column-start: 1;
-            grid-column-end: 3;
-            grid-row-start: 3;
-            grid-row-end: 5;
-        }
-        // arachnophobia
-        &-5{
-            grid-column-start: 3;
-            grid-column-end: 5;
-            grid-row-start: 3;
-            grid-row-end: 4;
-        }
-        // shopkeeper
-        &-8{
-            grid-column-start: 4;
-            grid-column-end: 6;
-            grid-row-start: 4;
-            grid-row-end: 5;
-        }
+    @media screen and (max-width: variables.$screenWidth_mobile){
+        margin: auto;
+        max-width: 100%;
+        margin: 20px;
+        grid-template-columns: 1fr 1fr;
     }
 }
