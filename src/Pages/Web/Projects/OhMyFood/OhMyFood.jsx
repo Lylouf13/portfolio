@@ -33,8 +33,8 @@ export default function OhMyFood() {
         title={'Intégration desktop'}
         text={"Les différents élements du site ont ensuité été déployés vers une version desktop / tablette"} 
       />
-      <ProjectImage image={'/Portfolio/Assets/Images/Web/OhMyFood/ohmyfood_g5.gif'}/>
-      <ProjectImage image={'/Portfolio/Assets/Images/Web/OhMyFood/ohmyfood_7.png'}/>
+      <ProjectImage image={'/Portfolio/Assets/Images/Web/OhMyFood/ohmyfood_g5.gif'} desc="loading desktop ohmyfood"/>
+      <ProjectImage image={'/Portfolio/Assets/Images/Web/OhMyFood/ohmyfood_7.png'} desc="cards des restaurants"/>
       <ProjectImage image={'/Portfolio/Assets/Images/Web/OhMyFood/ohmyfood_g6.gif'} title={"L'intégration desktop des différentes parties du site"}/>
 
       <ProjectText 

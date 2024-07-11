@@ -35,3 +35,25 @@
     padding-left: 18px;
     border-left: 8px solid variables.$color_secondary;
 }
+
+@mixin projectMedia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 60px 0 60px;
+    height: 100%;
+    width: 50%;
+    &__media{
+        box-shadow: 0px 1px 10px -5px black;
+        border: solid 3px rgb(153, 153, 153);
+        width: 100%;
+        object-fit: cover;
+    }
+    &__title{
+        margin-top: 20px;
+        color: variables.$color_main;
+        font-weight: 400;
+        font-style: italic;
+        
+    }
+}

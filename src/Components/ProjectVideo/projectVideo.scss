@@ -1,3 +1,6 @@
+@use '/src/Assets/sass/mixins';
+
 .projectVideo{
+    @include mixins.projectMedia;
     pointer-events: none;
 }
