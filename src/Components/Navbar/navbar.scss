@@ -39,8 +39,10 @@
         flex-wrap: wrap;
         gap: 20px;
         &__link{
+            font-size: calc(14px + 2vw);
             height: 75px;
             width: 45%;
+            padding: 25px;
         }
     }
 }

@@ -48,7 +48,7 @@
     }
     @media screen and (max-width: variables.$screenWidth_mobile){
         padding: 0;
-        justify-content: center;
+        justify-content: space-between;
         &__image{
             display: inline;
             border: none;
