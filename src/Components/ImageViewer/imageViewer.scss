@@ -48,6 +48,7 @@
     }
     @media screen and (max-width: variables.$screenWidth_mobile){
         padding: 0;
+        justify-content: center;
         &__image{
             display: inline;
             border: none;
@@ -60,6 +61,7 @@
             object-fit: contain;
         }
         &__title{
+            position: relative;
             font-size: 8vw;
             bottom: 35px;;
         }
