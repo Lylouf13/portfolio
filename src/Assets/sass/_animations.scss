@@ -1,7 +1,10 @@
-@mixin slideFromSide($name, $distance, $duration, $opacity){
+@mixin slideFromSide($name, $distance, $duration, $opacity, $delay : 0){
     animation-name: $name;
     animation-duration: $duration;
-
+    animation-fill-mode:forwards;
+    @if $delay != null{
+        animation-delay: $delay;
+    }
     @keyframes #{$name}{
         0%{
             transform: translateX($distance);

@@ -26,12 +26,14 @@
         object-fit: contain;
         border: solid white 3px;
         user-select: none;
+        opacity: 0;
     }
     &__title{
         position: absolute;
         color: white;
         bottom: 25px;
         font-size: 50px;
+        opacity: 0;
         text-shadow: -2px -2px 0 black, 2px -2px 0 black, 2px 2px 0 black,
         2px 2px 0 black;
     }
@@ -44,24 +46,28 @@
             &__image{
                 @include animations.slideFromSide(slideFromSideImageViewer, -100px,3s, 1)
             }
+            &__title{
+                @include animations.slideFromSide(slideFromSideImageViewerTitle, -100px,2s, 0, 0.5s)
+            }
         }
     }
     @media screen and (max-width: variables.$screenWidth_mobile){
         padding: 0;
-        justify-content: space-between;
+        justify-content: center;
+        gap:20px;
         &__image{
-            display: inline;
             border: none;
             filter:
               drop-shadow(0 -3px 0 white)
               drop-shadow(0 3px 0 white)
               drop-shadow(-3px 0 0 white)
               drop-shadow(3px 0 0 white);
-            width: 90%;
+              height: auto;
+            max-width: 90%;
             object-fit: contain;
         }
         &__title{
-            position: relative;
+            position:static;
             font-size: 8vw;
             bottom: 35px;;
         }
