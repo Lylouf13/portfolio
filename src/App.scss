@@ -2,6 +2,8 @@
 
 *{
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
 }
 .main{
   display: flex;
@@ -15,6 +17,6 @@
   }
   &__text{
     @include mixins.standardText;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
   }
 }

@@ -1,4 +1,5 @@
 import { React, useState }  from 'react'
+import './pixelGalery.scss'
 
 import ImageViewer from '../../Components/ImageViewer/ImageViewer'
 import PixelGrid from '../PixelGrid/PixelGrid'
@@ -19,7 +20,7 @@ export default function PixelGalery() {
     }
 
   return (
-    <section>
+    <section className='pixelGalery'>
       <ImageViewer open={viewerOpen} image={focusImage} title={focusTitle} closeViewer={closeViewer} />
       <PixelGrid usable={viewerOpen} setViewer={setViewer} type={'static'} />
       <PixelGrid usable={viewerOpen} setViewer={setViewer} type={'anim'} />

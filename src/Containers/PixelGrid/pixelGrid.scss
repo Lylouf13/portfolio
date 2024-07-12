@@ -2,7 +2,7 @@
 
 .pixelGrid{
     display: grid;
-    margin: auto;
+    //margin: auto;
     margin-bottom: 50px;
     padding: 0;
     max-width: 70%;
@@ -94,9 +94,7 @@
         }
     }
     @media screen and (max-width: variables.$screenWidth_mobile){
-        margin: auto;
-        max-width: 100%;
-        margin: 20px;
-        grid-template-columns: 1fr 1fr;
+        max-width: 80%;
+        grid-template-columns: 50% 50%;
     }
 }
