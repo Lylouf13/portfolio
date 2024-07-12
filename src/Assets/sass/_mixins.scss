@@ -35,6 +35,7 @@
 @mixin projectSubtitle{
     font-size: 28px;
     margin-top: 50px;
+    margin-bottom: 20px;
     padding-left: 18px;
     border-left: 8px solid variables.$color_secondary;
 }
@@ -43,7 +44,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 30px 60px 0 60px;
+    margin: 30px 70px 0 60px;
     height: 100%;
     width: 50%;
     &__media{
@@ -54,6 +55,7 @@
     }
     &__title{
         margin-top: 20px;
+        margin-bottom: 40px;
         color: variables.$color_main;
         font-size: 20px;
         font-weight: 400;
@@ -61,7 +63,6 @@
         
     }
     @media screen and (max-width: variables.$screenWidth_mobile){
-        margin: 0;
         width: 80%;
     }
 }

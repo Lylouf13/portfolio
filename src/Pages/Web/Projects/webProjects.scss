@@ -3,9 +3,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 35px;
     border-top: solid rgb(155, 155, 155);
     &__title{
-        margin-top: 80px;
+        margin-top: 50px;
         font-size: 40px;
     }
     &__container{

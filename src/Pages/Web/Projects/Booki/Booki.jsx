@@ -38,8 +38,7 @@ export default function Booki() {
             d'activités pour apporter un peu de dynamisme au projet.
           `}
       />
-      <ProjectImage image={'/Portfolio/Assets/Images/Web/Booki/booki_4.png'} title={"Le footer du site, un assemblage de plusieurs blocs d'éléments de navigation"}/>
-
+      
       <ProjectText 
         title={'Responsive | Tablette'}
         text=

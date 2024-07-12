@@ -1,4 +1,5 @@
 @use '/src/Assets/sass/mixins';
+@use '/src/Assets/sass/variables';
 
 .pixelCard{
     @include mixins.cardTitle(white, -50px, 40px);
@@ -19,6 +20,7 @@
         pointer-events: none;
     }
 
+    @media screen and (min-width: variables.$screenWidth_desktop){
     &:focus-visible, &:hover{
         border-radius: 10px 10px 20px 20px;
         z-index: 5;
@@ -32,12 +34,18 @@
                 transition: all 0.5s;
             }
             &__title{
-                bottom: -20px;
+                bottom: -10px;
                 opacity: 1;
                 text-shadow: -2px -2px 0 black, 2px -2px 0 black, 2px 2px 0 black,
                 2px 2px 0 black;
                 transition: all 0.5s;
             }
+        }
+    }
+    }
+    @media screen and (max-width: variables.$screenWidth_mobile){
+        &__title{
+            font-size: 6vw;
         }
     }
 }

@@ -95,6 +95,6 @@
     }
     @media screen and (max-width: variables.$screenWidth_mobile){
         max-width: 80%;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: auto;
     }
 }
