@@ -1,4 +1,4 @@
-
+@use '/src/Assets/sass/variables';
 .projectSlider{
     scroll-behavior: auto !important; 
     display: flex;
@@ -18,5 +18,13 @@
 
     &.-jsActive{
       cursor: grabbing;
+    }
+    @media screen and (max-width: variables.$screenWidth_mobile){
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      width: 80%;
+      overflow: visible;
     }
 }

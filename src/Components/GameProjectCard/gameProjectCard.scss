@@ -50,4 +50,11 @@
         pointer-events: none;
         cursor: grabbing;
     }
+    @media screen and (max-width: variables.$screenWidth_mobile){
+        min-width: 100%;
+        height: 300px;
+        &__title{
+            font-size: 6vw;
+        }
+    }
 }
