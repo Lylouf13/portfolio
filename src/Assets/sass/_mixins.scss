@@ -2,7 +2,7 @@
 
 @mixin standardText{
     box-sizing: border-box;
-    width: 50%;
+    //width: 50%;
     font-size: 20px;
     text-align: justify;
     line-height: 30px;
@@ -50,12 +50,15 @@
     &__media{
         box-shadow: 0px 1px 10px -5px black;
         border: solid 3px rgb(153, 153, 153);
+        max-height: 800px;
+
         width: 100%;
-        object-fit: cover;
+        object-fit: contain;
     }
     &__title{
         margin-top: 20px;
         margin-bottom: 40px;
+        text-align: center;
         color: variables.$color_main;
         font-size: 20px;
         font-weight: 400;

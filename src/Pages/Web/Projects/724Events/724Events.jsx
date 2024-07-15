@@ -14,7 +14,9 @@ export default function SevenEvents() {
         title={`Bug Fixing`}
         text={`Le site de 724 est un projet un peu différent des autres, l'exercice était ici centré sur du débugging d'éléments.
           Pas de nouveaux éléments à intégrer donc, mais toute une structure de code existante à appréhender et un certain nombre
-          de features cassées à faire fonctionner.`}
+          de features cassées à faire fonctionner. <br />
+          L'objectif était des faire passer au site les différents tests qui avaient été écrits au préalable pour les différentes features
+          intégrées.`}
       />
       <ProjectVideo link='/Portfolio/Assets/Images/Web/724Events/724Events_slider.webm' title='Le slider du site fonctionnel'/>
       <ProjectText 
@@ -23,10 +25,17 @@ export default function SevenEvents() {
           sur une slide blanche, il a donc fallu rajouter des conditions pour lui permettre de fonctionner correctement`}
       />
       <ProjectText
-        title={'Middle of the pack'} 
+        title={'Tri et affichage'} 
         text={`Le plus gros chantier du site était la partie des réalisations de 724 Events, qui permet à l'utilisateur de faire un tri par catégorie,
           en affichant 9 projets par page et en adaptant le nombre de pages en fonction des éléments présents dans la catégorie sélectionnée. <br />
-          On continue l'aventure`}
+          Tout cela a nécessité de trier et recouper les informations reçues depuis le json, puis de les afficher par blocs de 9 maximum`}
+      />
+      <ProjectVideo link='/Portfolio/Assets/Images/Web/724Events/724Events_filter.webm' title={`L'affichage du filtrage de projets`}/>
+
+      <ProjectText
+        text={`Les derniers éléments corrigés étaient mineurs, des typos dans des déclarations, des éléments temporaire ou de test intégrés d'une 
+          façon qui ne passait pas les tests malgré un fonctionnement correct (une fois de plus, des typos ou une nomenclature approximative étant la
+          source des erreurs)`}
       />
       <ProjectSkills title='Compétences associées' skills={["dd", "ddd", "dddddd", "e"]}/>
 

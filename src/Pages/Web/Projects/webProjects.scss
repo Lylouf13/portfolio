@@ -1,3 +1,4 @@
+@use'/src/Assets/sass/variables';
 .webProject{
     display: flex;
     flex-direction: column;
@@ -17,6 +18,15 @@
             align-items:flex-start;
             object-fit: contain;
             flex:1;
+            &__title{
+                align-self: flex-end;
+            }
+            @media screen and (max-width: variables.$screenWidth_mobile){
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+            }
+
         }
     }
 }

@@ -14,9 +14,12 @@
     font-size: 40px;
     margin-top: 35px;
     margin-bottom: 20px;
+    
   }
   &__text{
     @include mixins.standardText;
     margin-bottom: 25px;
+    width: 50%;
+
   }
 }
