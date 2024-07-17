@@ -11,7 +11,7 @@ import CtaButton from '../../../../Components/CTA/CtaButton'
 export default function NinaCarducci() {
   return (
     <section  className='webProject'>
-      <h1 id='#title' className='webProject__title'>Nina Carducci - Portfolio</h1>
+      <h1 className='webProject__title'>Nina Carducci - Portfolio</h1>
       <ProjectTechs technos={["html", "js", "css"]}/>
       <CtaButton title={"Projet Github"} link={"https://github.com/Lylouf13/oc9_seo"}/>
 

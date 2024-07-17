@@ -6,7 +6,7 @@ import './webProjectCard.scss'
 export default function WebProjectCard(data) {
 
   return (
-    <Link className='webProjectCard' to={`${data.link}#title`} draggable="false">
+    <Link className='webProjectCard' to={`${data.link}#project`} draggable="false">
           <h2 className="webProjectCard__title" draggable="false"> {data.title}</h2>
           <img className='webProjectCard__image' draggable="false" src={data.cover} alt={data.description} />
           <div className='webProjectCard__techIcons'>

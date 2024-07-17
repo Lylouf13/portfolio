@@ -3,10 +3,11 @@ import React from 'react'
 import PixelGalery from '../Containers/PixelGalery/PixelGalery'
 
 export default function PixelArt() {
+
   return (
     <main>
-      <section className='main'>
-          <h1 className='main__title'>Pixel Art !</h1>
+      <section id='#top' className='main'>
+          <h1  className='main__title'>Pixel Art !</h1>
           <p className="main__text">On retrouve ici mon travail en tant que pixel artist !</p>
           <p className="main__text">Ce qui était autrefois une restriction technique est désormais un choix
             esthétique ! Souvent motivé par un peu de nostalgie. Dans mon cas, la direction vers le pixel art

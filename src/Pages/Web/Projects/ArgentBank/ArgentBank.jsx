@@ -13,7 +13,7 @@ export default function ArgentBank() {
 
   return (
     <section className='webProject'>
-      <h1 id='#title'className='webProject__title'>ArgentBank</h1>
+      <h1 className='webProject__title'>ArgentBank</h1>
       <ProjectTechs technos={["react", "sass"]}/>
       <CtaButton title={"Projet Github"} link={"https://github.com/Lylouf13/oc11_ArgentBank-website"}/>
       <ProjectSkills title='Compétences associées' skills={["Redux", "Calls API", "Intégration React"]}/>

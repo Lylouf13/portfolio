@@ -13,7 +13,7 @@ import CtaButton from '../../../../Components/CTA/CtaButton'
 export default function Kasa() {
   return (
     <section className='webProject'>
-      <h1 id='#title' className='webProject__title'>Kasa</h1>
+      <h1 className='webProject__title'>Kasa</h1>
       <ProjectTechs technos={["react", "sass"]}/>
       <CtaButton title={"Projet Github"} link={"https://github.com/Lylouf13/oc8_kasa"}/>
 
