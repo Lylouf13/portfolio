@@ -3,6 +3,7 @@ import React from 'react'
 import CtaButton from '../../Components/CTA/CtaButton'
 import ProjectText from '../../Components/ProjectText/ProjectText'
 import ProjectTechs from '../../Components/ProjectTechs/ProjectTechs'
+import ProjectSkills from '../../Components/ProjectSkills/ProjectSkills'
 
 export default function Home() {
   return (
@@ -43,9 +44,9 @@ export default function Home() {
             <CtaButton title='Pixel Art' link='/Portfolio/pixelArt'/>
           </div>
 
-          <ProjectText 
-          title={'Mes Contacts'}
-          text={`Si toutefois vous souhaitiez me contacter `} 
+          <ProjectSkills 
+            title={'Mes Contacts'}
+            skills={['MAIL : lylian.leutard@gmail.com','TEL : 0652581805']} 
           />
     </section>
   )
