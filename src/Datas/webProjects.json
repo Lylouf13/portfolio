@@ -13,7 +13,7 @@
         "cover": "/Portfolio/Assets/Images/Web/724Events/724Events_thumb.png",
         "description": "724Events project thumbnail",
         "link": "/Portfolio/web/SevenEventsProject",
-        "technos": ["react","Sass"]
+        "technos": ["react","sass"]
     },
     {
         "id": "3",
