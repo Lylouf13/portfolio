@@ -11,7 +11,7 @@ export default function NinaCarducci() {
   return (
     <section  className='webProject'>
       <h1 id='#title' className='webProject__title'>Nina Carducci - Portfolio</h1>
-      <ProjectTechs technos={["HTML", "JS", "CSS"]}/>
+      <ProjectTechs technos={["html", "js", "css"]}/>
       <ProjectSkills title='Compétences associées' skills={["Optimisation de site", "Référencement Local", "Accessibilité"]}/>
       <ProjectText 
       title={"Optimisation"}
