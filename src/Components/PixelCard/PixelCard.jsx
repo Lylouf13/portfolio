@@ -17,7 +17,7 @@ export default function PixelCard(data) {
     // Also opens ImageViewer and sends required data   
     <li tabIndex="0" onKeyDown={handleKeyDown} draggable='false' className={`pixelCard pixelGrid__${data.type}-${data.id} ${data.usable ? 'pixelCard-disabled':''}`}>
         <h2 draggable='false' className='pixelCard__title'>{data.title}</h2>
-        <img loading='lazy' onClick={()=>data.setViewer(data.image, data.title,true)} draggable='false' className='pixelCard__image' src={data.image} alt="" />
+        <img loading='lazy' onClick={()=>data.setViewer(data.image, data.title,true)} draggable='false' className='pixelCard__image' src={data.image} alt={data.title} />
     </li>
   )
 }

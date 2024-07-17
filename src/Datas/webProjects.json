@@ -11,7 +11,7 @@
         "id": "2",
         "title": "724 Events",
         "cover": "/Portfolio/Assets/Images/Web/724Events/724Events_thumb.png",
-        "description": "Kasa project thumbnail",
+        "description": "724Events project thumbnail",
         "link": "/Portfolio/web/SevenEventsProject",
         "technos": ["react","Sass"]
     },
@@ -19,7 +19,7 @@
         "id": "3",
         "title": "Booki",
         "cover": "/Portfolio/Assets/Images/Web/Booki/booki_thumb.png",
-        "description": "Kasa project thumbnail",
+        "description": "Booki project thumbnail",
         "link": "/Portfolio/web/BookiProject",
         "technos": ["html","css"]
     },
@@ -27,7 +27,7 @@
         "id": "4",
         "title": "Argent Bank",
         "cover": "/Portfolio/Assets/Images/Web/ArgentBank/argentBank_thumb.png",
-        "description": "Kasa project thumbnail",
+        "description": "ArgentBank project thumbnail",
         "link": "/Portfolio/web/ArgentBankProject",
         "technos": ["react","sass"]
     },
@@ -35,7 +35,7 @@
         "id": "5",
         "title": "Nina Carducci",
         "cover": "/Portfolio/Assets/Images/Web/NinaCarducci/ninaCarducci_thumb.png",
-        "description": "Kasa project thumbnail",
+        "description": "NinaCarducci project thumbnail",
         "link": "/Portfolio/web/NinaCarducciProject",
         "technos": ["html","css","js"]
     },
@@ -43,7 +43,7 @@
         "id": "6",
         "title": "Sophie Bluel",
         "cover": "/Portfolio/Assets/Images/Web/SophieBluel/sophieBluel_thumb.png",
-        "description": "Kasa project thumbnail",
+        "description": "SophieBluel project thumbnail",
         "link": "/Portfolio/web/SophieBluelProject",
         "technos": ["html","js","css"]
     },
@@ -51,7 +51,7 @@
         "id": "7",
         "title": "OhMyFood",
         "cover": "/Portfolio/Assets/Images/Web/OhMyFood/ohMyFood_thumb.png",
-        "description": "Kasa project thumbnail",
+        "description": "OhMyFood project thumbnail",
         "link": "/Portfolio/web/OhMyFoodProject",
         "technos": ["html", "sass"]
     }
