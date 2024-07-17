@@ -23,9 +23,15 @@
         position: relative;
         margin-top: 50px;
         height: 80%;
+        max-width: 95%;
         object-fit: contain;
-        border: solid white 3px;
-        user-select: none;
+            // adjusts border to image real size, not max size , might need a fix later
+            filter:
+              drop-shadow(0 -3px 0 white)
+              drop-shadow(0 3px 0 white)
+              drop-shadow(-3px 0 0 white)
+              drop-shadow(3px 0 0 white);        
+              user-select: none;
         opacity: 0;
     }
     &__title{
@@ -57,11 +63,7 @@
         gap:20px;
         &__image{
             border: none;
-            filter:
-              drop-shadow(0 -3px 0 white)
-              drop-shadow(0 3px 0 white)
-              drop-shadow(-3px 0 0 white)
-              drop-shadow(3px 0 0 white);
+
               height: auto;
             max-width: 90%;
             object-fit: contain;
