@@ -3,7 +3,7 @@
 .cta{
     box-sizing: border-box;
     background-color: variables.$color-main;
-    border-radius: 4px;
+    border-radius: 0px;
     padding-top: 20px;
     margin-top: 20px;
     width: 240px;
@@ -15,8 +15,10 @@
     font-size: 30px;
     transition: all 0.5s;
 
-    &:hover{
+    &:focus-visible, &:hover{
         background-color: variables.$color-secondary;
+        color: black;
+        border-radius: 10px;
         transition: all 0.5s;
     }
 }
