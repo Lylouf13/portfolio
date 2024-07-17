@@ -13,7 +13,7 @@ export default function SophieBluel() {
   return (
     <section className='webProject'>
       <h1 id='#title' className='webProject__title'>Sophie Bluel</h1>
-      <ProjectTechs technos={["HTML", "JS", "CSS"]}/>
+      <ProjectTechs technos={["html", "js", "css"]}/>
       <ProjectSkills title='Compétences associées' skills={["Appels API JS", "Feedbacks utilisateur", "Intégration"]}/>
 
       <ProjectText 

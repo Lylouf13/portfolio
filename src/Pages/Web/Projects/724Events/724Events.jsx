@@ -10,7 +10,7 @@ export default function SevenEvents() {
   return (
     <section className='webProject'>
       <h1 id='#title' className='webProject__title'>724 Events</h1>
-      <ProjectTechs technos={["React", "Sass"]}/>
+      <ProjectTechs technos={["react", "sass"]}/>
       <ProjectSkills title='Compétences associées' skills={["Débug de code pré-existant", "Utilisation de fichiers JSON", "Tests"]}/>
       <ProjectText 
         title={`Bug Fixing`}

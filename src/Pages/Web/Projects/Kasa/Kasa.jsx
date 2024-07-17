@@ -13,7 +13,7 @@ export default function Kasa() {
   return (
     <section className='webProject'>
       <h1 id='#title' className='webProject__title'>Kasa</h1>
-      <ProjectTechs technos={["React", "Sass"]}/>
+      <ProjectTechs technos={["react", "sass"]}/>
       <ProjectSkills title='Compétences associées' skills={["Intégration React", "React Router", "Génération de contenu à partir d'un JSON"]}/>
       <ProjectText 
       title={"Intégration React"}

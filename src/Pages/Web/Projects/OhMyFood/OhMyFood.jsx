@@ -11,7 +11,7 @@ export default function OhMyFood() {
   return (
     <section className='webProject'>
       <h1 id='#title' className='webProject__title'>Ohmyfood</h1>
-      <ProjectTechs technos={["HTML", "Sass"]}/>
+      <ProjectTechs technos={["html", "sass"]}/>
       <ProjectSkills title='Compétences associées' skills={["Intégration depuis une maquette", "Sass", "Animations CSS"]}/>
 
       <ProjectText 
