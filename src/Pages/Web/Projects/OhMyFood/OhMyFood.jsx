@@ -5,6 +5,7 @@ import ProjectImage from '../../../../Components/ProjectImage/ProjectImage'
 import ProjectText from '../../../../Components/ProjectText/ProjectText'
 import ProjectSkills from '../../../../Components/ProjectSkills/ProjectSkills'
 import ProjectTechs from '../../../../Components/ProjectTechs/ProjectTechs'
+import CtaButton from '../../../../Components/CTA/CtaButton'
 
 
 export default function OhMyFood() {
@@ -12,6 +13,8 @@ export default function OhMyFood() {
     <section className='webProject'>
       <h1 id='#title' className='webProject__title'>Ohmyfood</h1>
       <ProjectTechs technos={["html", "sass"]}/>
+      <CtaButton title={"Projet Github"} link={"https://github.com/Lylouf13/oc4-ohmyfood"}/>
+
       <ProjectSkills title='Compétences associées' skills={["Intégration depuis une maquette", "Sass", "Animations CSS"]}/>
 
       <ProjectText 

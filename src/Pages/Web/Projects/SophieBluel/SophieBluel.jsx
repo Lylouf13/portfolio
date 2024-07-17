@@ -7,6 +7,7 @@ import ProjectImage from '../../../../Components/ProjectImage/ProjectImage'
 import ProjectText from '../../../../Components/ProjectText/ProjectText'
 import ProjectSkills from '../../../../Components/ProjectSkills/ProjectSkills'
 import ProjectTechs from '../../../../Components/ProjectTechs/ProjectTechs'
+import CtaButton from '../../../../Components/CTA/CtaButton'
 
 
 export default function SophieBluel() {
@@ -14,6 +15,8 @@ export default function SophieBluel() {
     <section className='webProject'>
       <h1 id='#title' className='webProject__title'>Sophie Bluel</h1>
       <ProjectTechs technos={["html", "js", "css"]}/>
+      <CtaButton title={"Projet Github"} link={"https://github.com/Lylouf13/oc6-archi"}/>
+
       <ProjectSkills title='Compétences associées' skills={["Appels API JS", "Feedbacks utilisateur", "Intégration"]}/>
 
       <ProjectText 

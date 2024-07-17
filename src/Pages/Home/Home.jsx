@@ -1,7 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import './home.scss'
 
+import CtaButton from '../../Components/CTA/CtaButton'
+import ProjectText from '../../Components/ProjectText/ProjectText'
 
 export default function Home() {
   return (
@@ -17,28 +17,34 @@ export default function Home() {
         </p>
         <p className="main__text">
           J'y ai également eu l'occasion de communiquer avec des corps de métier très différents les uns des autres, développant ainsi
-          ma capacité à écouter et communiquer autour des besoins très différents de chacun dans une production
+          ma capacité à écouter et communiquer autour des besoins très différents de chacun dans une production.
         </p>
-      <h2 className='home__container__subtitle'>Web dev</h2>
-      <div className="home__container">
-        <p className="home__container__text">Ce portfolio me permet de présenter tous mes travaux réalisés en développement front-end, princpalement
+        <ProjectText 
+          title={'Développement front-end'}
+          text={`Ce portfolio me permet de présenter tous mes travaux réalisés en développement front-end, princpalement
           dans le cadre de ma formation OpenClassrooms. Si le travail présenté est le coeur du site, le portfolio fait un peu partie de lui-même et fait
-          la synthèse de mes compétences d'intégration 
-        </p>
-        <Link className="home__container__cta" to="/web">Web !</Link>
-      </div>
-      <h2 className='home__container__subtitle home__container__subtitle-right'>Autres aventures</h2>
-      <div className="home__container home__container-right">
-        <p className="home__container__text">Mon parcours m'a amené à étudier le game design et à travailler en tant que pixel
-          artist en freelance, ces expériences ont été déterminantes dans ma construction personnelle, et c'est avec fierté que
-          je continue de les afficher dans mon portfolio (et que j'en profite pour faire des tests d'intégration)
-        </p>
-        <div className="home__container home__container-column">
-          <Link className="home__container__cta" to="/games">Games</Link>
-          <Link className="home__container__cta" to="/pixelart">Pixel Art</Link>
-        </div>
+          une synthèse de mes compétences d'intégration.`} 
+          />
+        <CtaButton title='Web' link='/Portfolio/web'/>
 
-      </div>
+        <ProjectText 
+          title={'Une section plus personnelle'}
+          text={`Mon parcours m'a amené à étudier le game design et à travailler en tant que pixel
+          artist en freelance, ces expériences ont été déterminantes dans ma construction personnelle, et c'est avec fierté que
+          je continue de les afficher dans mon portfolio (et que j'en profite pour faire des tests d'intégration) <br />
+          Ces expériences font partie intégrante de mon profil, et expliquent mon intérêt particulier pour les éléments
+          intéractifs et l'UX en général, qu'il s'agisse de simples boutons, d'animations, ou de quoi que ce soit auquel l'utilisateur peut être confronté, et qui
+          peut venir enrichir et/ou guider son expérience`} 
+          />
+          <div className='main__container'>
+            <CtaButton title='Games' link='/Portfolio/games'/>
+            <CtaButton title='Pixel Art' link='/Portfolio/pixelArt'/>
+          </div>
+
+          <ProjectText 
+          title={'Mes Contacts'}
+          text={`Si toutefois vous souhaitiez me contacter `} 
+          />
     </section>
   )
 }

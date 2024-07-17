@@ -1,15 +1,8 @@
 .home{
-    margin: 0 400px 300px 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
 
     &__container{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
         gap:20px;
 
         align-self: flex-start;
@@ -31,7 +24,6 @@
             margin-bottom: 30px;
             color: rgb(235, 194, 9);
             font-size: 35px;
-            align-self: flex-start;
         }
         &__cta{
             box-sizing: border-box;

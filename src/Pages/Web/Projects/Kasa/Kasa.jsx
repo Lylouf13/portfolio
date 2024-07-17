@@ -7,6 +7,7 @@ import ProjectImage from '../../../../Components/ProjectImage/ProjectImage'
 import ProjectText from '../../../../Components/ProjectText/ProjectText'
 import ProjectSkills from '../../../../Components/ProjectSkills/ProjectSkills'
 import ProjectTechs from '../../../../Components/ProjectTechs/ProjectTechs'
+import CtaButton from '../../../../Components/CTA/CtaButton'
 
 
 export default function Kasa() {
@@ -14,6 +15,8 @@ export default function Kasa() {
     <section className='webProject'>
       <h1 id='#title' className='webProject__title'>Kasa</h1>
       <ProjectTechs technos={["react", "sass"]}/>
+      <CtaButton title={"Projet Github"} link={"https://github.com/Lylouf13/oc8_kasa"}/>
+
       <ProjectSkills title='Compétences associées' skills={["Intégration React", "React Router", "Génération de contenu à partir d'un JSON"]}/>
       <ProjectText 
       title={"Intégration React"}

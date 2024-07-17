@@ -6,6 +6,7 @@ import ProjectImage from '../../../../Components/ProjectImage/ProjectImage'
 import ProjectText from '../../../../Components/ProjectText/ProjectText'
 import ProjectSkills from '../../../../Components/ProjectSkills/ProjectSkills'
 import ProjectTechs from '../../../../Components/ProjectTechs/ProjectTechs'
+import CtaButton from '../../../../Components/CTA/CtaButton'
 
 
 
@@ -15,7 +16,7 @@ export default function Booki() {
     <section className='webProject'>
       <h1 id='#title' className='webProject__title'>Booki</h1>
       <ProjectTechs technos={["html", "css"]}/>
-
+      <CtaButton title={"Projet Github"} link={"https://github.com/Lylouf13/OC_3"}/>
       <ProjectSkills title='Compétences associées' skills={["HTML", "CSS", "Intégration à partir d'une maquette"]}/>
       <ProjectText 
         title ='Intégration'

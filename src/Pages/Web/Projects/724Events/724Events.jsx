@@ -5,12 +5,14 @@ import ProjectVideo from '../../../../Components/ProjectVideo/ProjectVideo'
 import ProjectText from '../../../../Components/ProjectText/ProjectText'
 import ProjectSkills from '../../../../Components/ProjectSkills/ProjectSkills'
 import ProjectTechs from '../../../../Components/ProjectTechs/ProjectTechs'
+import CtaButton from '../../../../Components/CTA/CtaButton'
 
 export default function SevenEvents() {
   return (
     <section className='webProject'>
       <h1 id='#title' className='webProject__title'>724 Events</h1>
       <ProjectTechs technos={["react", "sass"]}/>
+      <CtaButton title={"Projet Github"} link={"https://github.com/Lylouf13/oc10_reactDebug"}/>
       <ProjectSkills title='Compétences associées' skills={["Débug de code pré-existant", "Utilisation de fichiers JSON", "Tests"]}/>
       <ProjectText 
         title={`Bug Fixing`}
