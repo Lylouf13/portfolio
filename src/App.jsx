@@ -10,7 +10,7 @@ function App() {
   const location = useLocation()
   useEffect(() => {
     if (location.hash==='#top') {
-      window.scrollTo(0,0);
+      window.scrollTo({top:0,left:0, behavior: 'instant'});
     } 
   })
   return (
