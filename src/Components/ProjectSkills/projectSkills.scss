@@ -1,10 +1,21 @@
 @use '/src/Assets/sass/mixins';
+@use '/src/Assets/sass/variables';
 
 .projectSkills{
+    width: 50%;
     &__title{
         @include mixins.projectSubtitle;
     }
     &__element{
         font-size: 22px;
+        padding: 10px 20px 0 0;
+        font-style: italic;
+        list-style:none;
+        &::before{
+            content:"- ";
+        }
+    }
+    @media screen and (max-width: variables.$screenWidth_mobile){
+        width: 80%;
     }
 }

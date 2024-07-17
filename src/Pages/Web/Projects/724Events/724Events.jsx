@@ -2,14 +2,16 @@ import React from 'react'
 
 import '../webProjects.scss'
 import ProjectVideo from '../../../../Components/ProjectVideo/ProjectVideo'
-//import ProjectImage from '../../../../Components/ProjectImage/ProjectImage'
 import ProjectText from '../../../../Components/ProjectText/ProjectText'
 import ProjectSkills from '../../../../Components/ProjectSkills/ProjectSkills'
+import ProjectTechs from '../../../../Components/ProjectTechs/ProjectTechs'
 
 export default function SevenEvents() {
   return (
     <section className='webProject'>
       <h1 id='#title' className='webProject__title'>724 Events</h1>
+      <ProjectTechs technos={["React", "Sass"]}/>
+      <ProjectSkills title='Compétences associées' skills={["Débug de code pré-existant", "Utilisation de fichiers JSON", "Tests"]}/>
       <ProjectText 
         title={`Bug Fixing`}
         text={`Le site de 724 est un projet un peu différent des autres, l'exercice était ici centré sur du débugging d'éléments.
@@ -37,7 +39,6 @@ export default function SevenEvents() {
           façon qui ne passait pas les tests malgré un fonctionnement correct (une fois de plus, des typos ou une nomenclature approximative étant la
           source des erreurs)`}
       />
-      <ProjectSkills title='Compétences associées' skills={["dd", "ddd", "dddddd", "e"]}/>
 
     </section>
   )

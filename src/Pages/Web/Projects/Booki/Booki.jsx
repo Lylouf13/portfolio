@@ -5,6 +5,8 @@ import '../webProjects.scss'
 import ProjectImage from '../../../../Components/ProjectImage/ProjectImage'
 import ProjectText from '../../../../Components/ProjectText/ProjectText'
 import ProjectSkills from '../../../../Components/ProjectSkills/ProjectSkills'
+import ProjectTechs from '../../../../Components/ProjectTechs/ProjectTechs'
+
 
 
 export default function Booki() {
@@ -12,6 +14,9 @@ export default function Booki() {
   return (
     <section className='webProject'>
       <h1 id='#title' className='webProject__title'>Booki</h1>
+      <ProjectTechs technos={["HTML", "CSS"]}/>
+
+      <ProjectSkills title='Compétences associées' skills={["HTML", "CSS", "Intégration à partir d'une maquette"]}/>
       <ProjectText 
         title ='Intégration'
         text=
@@ -68,7 +73,6 @@ export default function Booki() {
             ou de lien avec des data sous un quelconque format a permi de se concentrer sur la CSS et les logiques de boites du HTML. 
           `}
       />
-      <ProjectSkills title='Compétences associées' skills={["dd", "ddd", "dddddd", "e"]}/>
     </section>
   )
 }

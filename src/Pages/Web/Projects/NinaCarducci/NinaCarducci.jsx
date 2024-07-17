@@ -1,15 +1,18 @@
 import React from 'react'
 
 import '../webProjects.scss'
-//import ProjectVideo from '../../../../Components/ProjectVideo/ProjectVideo'
 import ProjectImage from '../../../../Components/ProjectImage/ProjectImage'
 import ProjectText from '../../../../Components/ProjectText/ProjectText'
 import ProjectSkills from '../../../../Components/ProjectSkills/ProjectSkills'
+import ProjectTechs from '../../../../Components/ProjectTechs/ProjectTechs'
+
 
 export default function NinaCarducci() {
   return (
     <section  className='webProject'>
       <h1 id='#title' className='webProject__title'>Nina Carducci - Portfolio</h1>
+      <ProjectTechs technos={["HTML", "JS", "CSS"]}/>
+      <ProjectSkills title='Compétences associées' skills={["Optimisation de site", "Référencement Local", "Accessibilité"]}/>
       <ProjectText 
       title={"Optimisation"}
       text={`Ce projet se déroule sur le portfolio d'une photographe, sur lequel le maître mot a été l'optimisation du site. <br />
@@ -50,7 +53,6 @@ export default function NinaCarducci() {
       />
       <ProjectImage image={'/Portfolio/Assets/Images/Web/NinaCarducci/ninaCarducci_8.png'} title={"Card générée par OpenGraph"}/>
       <ProjectImage image={'/Portfolio/Assets/Images/Web/NinaCarducci/ninaCarducci_9.png'} title={"Card générée par Twitte Cards"}/>
-      <ProjectSkills title='Compétences associées' skills={["dd", "ddd", "dddddd", "e"]}/>
     </section>  
   )
 }

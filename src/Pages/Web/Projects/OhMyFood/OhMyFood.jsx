@@ -4,11 +4,16 @@ import '../webProjects.scss'
 import ProjectImage from '../../../../Components/ProjectImage/ProjectImage'
 import ProjectText from '../../../../Components/ProjectText/ProjectText'
 import ProjectSkills from '../../../../Components/ProjectSkills/ProjectSkills'
+import ProjectTechs from '../../../../Components/ProjectTechs/ProjectTechs'
+
 
 export default function OhMyFood() {
   return (
     <section className='webProject'>
       <h1 id='#title' className='webProject__title'>Ohmyfood</h1>
+      <ProjectTechs technos={["HTML", "Sass"]}/>
+      <ProjectSkills title='Compétences associées' skills={["Intégration depuis une maquette", "Sass", "Animations CSS"]}/>
+
       <ProjectText 
         title={'Approche Mobile-first'}
         text={`Le site d'Ohmyfood est développé principalement pour des utilisateurs mobile, c'est donc naturellement que le développement
@@ -43,7 +48,6 @@ export default function OhMyFood() {
           base de code à disposition. Cela m'a poussé à étudier la maquette du site et à planifier les différents éléments
           réutilisables, notamment au travers des mixins`} 
       />
-      <ProjectSkills title='Compétences associées' skills={["dd", "ddd", "dddddd", "e"]}/>
 
     </section>
   )

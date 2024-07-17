@@ -5,7 +5,7 @@
         "cover": "/Portfolio/Assets/Images/Web/Kasa/kasa_thumb.png",
         "description": "Kasa project thumbnail",
         "link": "/Portfolio/web/KasaProject",
-        "technos": ["sass","react"]
+        "technos": ["react", "sass"]
     },
     {
         "id": "2",
@@ -13,7 +13,7 @@
         "cover": "/Portfolio/Assets/Images/Web/724Events/724Events_thumb.png",
         "description": "Kasa project thumbnail",
         "link": "/Portfolio/web/SevenEventsProject",
-        "technos": ["sass","react","js"]
+        "technos": ["react","Sass"]
     },
     {
         "id": "3",
@@ -21,7 +21,7 @@
         "cover": "/Portfolio/Assets/Images/Web/Booki/booki_thumb.png",
         "description": "Kasa project thumbnail",
         "link": "/Portfolio/web/BookiProject",
-        "technos": ["css","html"]
+        "technos": ["html","css"]
     },
     {
         "id": "4",
@@ -29,7 +29,7 @@
         "cover": "/Portfolio/Assets/Images/Web/ArgentBank/argentBank_thumb.png",
         "description": "Kasa project thumbnail",
         "link": "/Portfolio/web/ArgentBankProject",
-        "technos": ["sass","react"]
+        "technos": ["react","sass"]
     },
     {
         "id": "5",
@@ -37,7 +37,7 @@
         "cover": "/Portfolio/Assets/Images/Web/NinaCarducci/ninaCarducci_thumb.png",
         "description": "Kasa project thumbnail",
         "link": "/Portfolio/web/NinaCarducciProject",
-        "technos": ["css","js"]
+        "technos": ["html","css","js"]
     },
     {
         "id": "6",
@@ -45,7 +45,7 @@
         "cover": "/Portfolio/Assets/Images/Web/SophieBluel/sophieBluel_thumb.png",
         "description": "Kasa project thumbnail",
         "link": "/Portfolio/web/SophieBluelProject",
-        "technos": ["js","css"]
+        "technos": ["html","js","css"]
     },
     {
         "id": "7",
@@ -53,6 +53,6 @@
         "cover": "/Portfolio/Assets/Images/Web/OhMyFood/ohMyFood_thumb.png",
         "description": "Kasa project thumbnail",
         "link": "/Portfolio/web/OhMyFoodProject",
-        "technos": ["css","html"]
+        "technos": ["html", "sass"]
     }
 ]

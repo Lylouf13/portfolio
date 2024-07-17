@@ -2,16 +2,19 @@ import { React } from 'react'
 
 import '../webProjects.scss'
 
-//import ProjectVideo from '../../../../Components/ProjectVideo/ProjectVideo'
 import ProjectImage from '../../../../Components/ProjectImage/ProjectImage'
 import ProjectText from '../../../../Components/ProjectText/ProjectText'
 import ProjectSkills from '../../../../Components/ProjectSkills/ProjectSkills'
+import ProjectTechs from '../../../../Components/ProjectTechs/ProjectTechs'
+
 
 export default function ArgentBank() {
 
   return (
     <section className='webProject'>
       <h1 id='#title'className='webProject__title'>ArgentBank</h1>
+      <ProjectTechs technos={["React", "Sass"]}/>
+      <ProjectSkills title='Compétences associées' skills={["Redux", "Calls API", "Intégration React"]}/>
       <ProjectText 
       title={"Portage"}
       text={`Argent Bank est un projet pour lequel les différents éléments visuels étaient déjà prêts, mais qui nécessitait un portage sur React, le gros du projet
@@ -39,7 +42,6 @@ export default function ArgentBank() {
         les différents compte, allant de la récupération des données à la modification de leurs détails par l'utilisateur.`}
       />
 
-      <ProjectSkills title='Compétences associées' skills={["dd", "ddd", "dddddd", "e"]}/>
     </section>
   )
 }

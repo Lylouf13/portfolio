@@ -6,11 +6,15 @@ import ProjectVideo from '../../../../Components/ProjectVideo/ProjectVideo'
 import ProjectImage from '../../../../Components/ProjectImage/ProjectImage'
 import ProjectText from '../../../../Components/ProjectText/ProjectText'
 import ProjectSkills from '../../../../Components/ProjectSkills/ProjectSkills'
+import ProjectTechs from '../../../../Components/ProjectTechs/ProjectTechs'
+
 
 export default function Kasa() {
   return (
     <section className='webProject'>
       <h1 id='#title' className='webProject__title'>Kasa</h1>
+      <ProjectTechs technos={["React", "Sass"]}/>
+      <ProjectSkills title='Compétences associées' skills={["Intégration React", "React Router", "Génération de contenu à partir d'un JSON"]}/>
       <ProjectText 
       title={"Intégration React"}
       text={`Kasa est le premier projet que j'ai eu à gérer de A à Z en utilisant React. Cela à impliqué une première partie de "pré-production" centrée
@@ -37,7 +41,6 @@ export default function Kasa() {
         <ProjectImage image={'/Portfolio/Assets/Images/Web/Kasa/kasa_4.png'} title={"Page de location Mobile"}/>
         <ProjectImage image={'/Portfolio/Assets/Images/Web/Kasa/kasa_6.png'} title={"A propos Mobile"}/>
       </div>
-      <ProjectSkills title='Compétences associées' skills={["dd", "ddd", "dddddd", "e"]}/>
     </section>
   )
 }
