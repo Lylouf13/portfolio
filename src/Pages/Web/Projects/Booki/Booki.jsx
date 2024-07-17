@@ -22,7 +22,7 @@ export default function Booki() {
         title ='Intégration'
         text=
           {`Booki a été le premier projet de ma formation OpenClassrooms,
-          et donc mon premier exercice d'intégration HTML/CSS. Il s'agit d'un site One Page pour une agence de location.
+          et donc mon premier exercice d'intégration HTML/CSS. Il s'agit d'un site One Page pour une agence de location. <br />
           Le site est découpé en 4 grandes parties, Header/footer, Barre de recherche, Hébergements et Activités.
           J'avais à ma disposition un figma contenant les différents éléments du site à intégrer ainsi qu'une
           petite base de code concernant les cards utilisées dans la section Hébergements du site. 

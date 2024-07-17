@@ -2,6 +2,7 @@ import React from 'react'
 
 import CtaButton from '../../Components/CTA/CtaButton'
 import ProjectText from '../../Components/ProjectText/ProjectText'
+import ProjectTechs from '../../Components/ProjectTechs/ProjectTechs'
 
 export default function Home() {
   return (
@@ -17,9 +18,14 @@ export default function Home() {
           title={'Développement front-end'}
           text={`Ce portfolio me permet de présenter tous mes travaux réalisés en développement front-end, princpalement
           dans le cadre de ma formation. Si le travail présenté est le coeur du site, le portfolio fait un peu partie de lui-même et fait
-          une synthèse de mes compétences d'intégration.`} 
+          une synthèse de mes compétences d'intégration. <br />
+          Durant ma formation j'ai pu toucher à plusieurs technologies, allant des fonctionnements de base du duo HTML / CSS en passant par
+          l'intégration de dynamisme via Javascript. <br />
+          Les derniers projets ont principalement tourné autour du framework React, qui est à l'heure actuelle la méthodologie
+          sur laquelle j'ai le plus d'expérience d'intégration`} 
           />
         <CtaButton title='Web' link='/Portfolio/web'/>
+        <ProjectTechs technos={['html', 'css', 'js', 'sass', 'react']}/>
 
         <ProjectText 
           title={'Une section plus personnelle'}
