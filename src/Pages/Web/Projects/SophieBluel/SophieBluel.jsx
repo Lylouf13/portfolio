@@ -31,13 +31,13 @@ export default function SophieBluel() {
         Lorsque l'utilisateur n'est pas connecté, la section projet affiche un système de tri, qui permet de visualiser seulement une catégorie spécifique de projets, ou
         bien toutes les catégories simultanément.`}
       />
-      <ProjectVideo link='/Portfolio/Assets/Images/Web/SophieBluel/sophieBluel_tri.webm' title={`Navigation entre la homepage et la location`}/>
+      <ProjectVideo link='/portfolio/Assets/Images/Web/SophieBluel/sophieBluel_tri.webm' title={`Navigation entre la homepage et la location`}/>
 
       <ProjectText 
       text={`A l'inverse, lorsque l'utilisateur est connecté, il a accès à une fenêtre de modification, qui lui permet de supprimer les projets
         déjà existants, mais également d'en ajouter de nouveaux`}
       />
-      <ProjectImage image={'/Portfolio/Assets/Images/Web/SophieBluel/sophieBluel_1.webp'} title={"La section projets"}/>
+      <ProjectImage image={'/portfolio/Assets/Images/Web/SophieBluel/sophieBluel_1.webp'} title={"La section projets"}/>
       
       <ProjectText 
       title={"Modale et feedbacks"}
@@ -46,12 +46,12 @@ export default function SophieBluel() {
         si tout est complet.`}
       />
       <div className='webProject__container webProject__container-row'>
-        <ProjectImage image={'/Portfolio/Assets/Images/Web/SophieBluel/sophieBluel_2.webp'} title={"Modale de gestion des projets"}/>
-        <ProjectImage image={'/Portfolio/Assets/Images/Web/SophieBluel/sophieBluel_3.webp'} title={"Modale d'ajout de projet vide"}/>
+        <ProjectImage image={'/portfolio/Assets/Images/Web/SophieBluel/sophieBluel_2.webp'} title={"Modale de gestion des projets"}/>
+        <ProjectImage image={'/portfolio/Assets/Images/Web/SophieBluel/sophieBluel_3.webp'} title={"Modale d'ajout de projet vide"}/>
       </div>
       <div className='webProject__container webProject__container-row'>
-      <ProjectImage image={'/Portfolio/Assets/Images/Web/SophieBluel/sophieBluel_4.webp'} title={"Modale d'ajout de projet remplie"}/>
-      <ProjectImage image={'/Portfolio/Assets/Images/Web/SophieBluel/sophieBluel_5.webp'} title={"Modale d'ajout de projet incomplète"}/>
+      <ProjectImage image={'/portfolio/Assets/Images/Web/SophieBluel/sophieBluel_4.webp'} title={"Modale d'ajout de projet remplie"}/>
+      <ProjectImage image={'/portfolio/Assets/Images/Web/SophieBluel/sophieBluel_5.webp'} title={"Modale d'ajout de projet incomplète"}/>
       </div>
 
     </section>

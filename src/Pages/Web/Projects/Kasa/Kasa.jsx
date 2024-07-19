@@ -25,24 +25,24 @@ export default function Kasa() {
         Les éléments de contenu du site sont générés via un fichier JSON, qui permet à la fois de créer les différentes cards visibles depuis la homepage, mais
         également de passer le contenu à afficher sur les pages d'informations des locations, via un système d'id`}
       />
-      <ProjectImage image={'/Portfolio/Assets/Images/Web/Kasa/kasa_1.webp'} title={"Homepage de Kasa, montre les différentes locations disponibles"}/>
-      <ProjectImage image={'/Portfolio/Assets/Images/Web/Kasa/kasa_2.webp'} title={"La section 'A propos' du site, qui utilise les mêmes components cliquables que les pages de locations"}/>
-      <ProjectImage image={'/Portfolio/Assets/Images/Web/Kasa/kasa_3.webp'} title={"Une page de location, statique"}/>
+      <ProjectImage image={'/portfolio/Assets/Images/Web/Kasa/kasa_1.webp'} title={"Homepage de Kasa, montre les différentes locations disponibles"}/>
+      <ProjectImage image={'/portfolio/Assets/Images/Web/Kasa/kasa_2.webp'} title={"La section 'A propos' du site, qui utilise les mêmes components cliquables que les pages de locations"}/>
+      <ProjectImage image={'/portfolio/Assets/Images/Web/Kasa/kasa_3.webp'} title={"Une page de location, statique"}/>
 
       <ProjectText 
       text={`Lors du clic sur une des cards, la page est générée en fonction des informations liée à l'id de la location, qui permet de récupérer les images du bien, et de générer
         slider pour afficher les différentes images lorsqu'il y en a plusieurs, les informations de locataire, les tags, les informations complémentaires du bien`}
       />
-      <ProjectVideo link='/Portfolio/Assets/Images/Web/Kasa/kasa_location.webm' title={`Navigation entre la homepage et la location`}/>
+      <ProjectVideo link='/portfolio/Assets/Images/Web/Kasa/kasa_location.webm' title={`Navigation entre la homepage et la location`}/>
 
       <ProjectText 
       title={'Responsive'}
       text={`Ces différents éléments ont également reçu leur intégration responsive pour mobile, avec très peu de modifications, surtout de l'adaptation d'affichage`}
       />
       <div className='webProject__container webProject__container-row'>
-        <ProjectImage image={'/Portfolio/Assets/Images/Web/Kasa/kasa_5.webp'} title={"Homepage Mobile"}/>
-        <ProjectImage image={'/Portfolio/Assets/Images/Web/Kasa/kasa_4.webp'} title={"Page de location Mobile"}/>
-        <ProjectImage image={'/Portfolio/Assets/Images/Web/Kasa/kasa_6.webp'} title={"A propos Mobile"}/>
+        <ProjectImage image={'/portfolio/Assets/Images/Web/Kasa/kasa_5.webp'} title={"Homepage Mobile"}/>
+        <ProjectImage image={'/portfolio/Assets/Images/Web/Kasa/kasa_4.webp'} title={"Page de location Mobile"}/>
+        <ProjectImage image={'/portfolio/Assets/Images/Web/Kasa/kasa_6.webp'} title={"A propos Mobile"}/>
       </div>
     </section>
   )

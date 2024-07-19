@@ -25,7 +25,7 @@ export default function Home() {
           Les derniers projets ont principalement tourné autour du framework React, qui est à l'heure actuelle la méthodologie
           sur laquelle j'ai le plus d'expérience d'intégration`} 
           />
-        <CtaButton title='Web' link='/Portfolio/web#top'/>
+        <CtaButton title='Web' link='/portfolio/web#top'/>
         <ProjectTechs technos={['html', 'css', 'js', 'sass', 'react']}/>
 
         <ProjectText 
@@ -40,8 +40,8 @@ export default function Home() {
           peut venir enrichir et/ou guider son expérience`} 
           />
           <div className='main__container'>
-            <CtaButton title='Games' link='/Portfolio/games#top'/>
-            <CtaButton title='Pixel Art' link='/Portfolio/pixelArt#top'/>
+            <CtaButton title='Games' link='/portfolio/games#top'/>
+            <CtaButton title='Pixel Art' link='/portfolio/pixelArt#top'/>
           </div>
 
           <ProjectSkills 

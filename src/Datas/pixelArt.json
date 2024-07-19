@@ -5,121 +5,121 @@
     {
         "id": "1",
         "title": "Southshore Tower",
-        "image": "/Portfolio/Assets/Images/PixelArt/Static/pix_1.png",
+        "image": "/portfolio/Assets/Images/PixelArt/Static/pix_1.png",
         "description": ""
     },
     {
         "id": "2",
         "title": "Serenity",
-        "image": "/Portfolio/Assets/Images/PixelArt/Static/pix_2.png",
+        "image": "/portfolio/Assets/Images/PixelArt/Static/pix_2.png",
         "description": ""
     },
     {
         "id": "3",
         "title": "The Great Clock",
-        "image": "/Portfolio/Assets/Images/PixelArt/Static/pix_3.png",
+        "image": "/portfolio/Assets/Images/PixelArt/Static/pix_3.png",
         "description": ""
     },
     {
         "id": "4",
         "title": "Light Up",
-        "image": "/Portfolio/Assets/Images/PixelArt/Static/pix_5.png",
+        "image": "/portfolio/Assets/Images/PixelArt/Static/pix_5.png",
         "description": ""
     },
     {
         "id": "5",
         "title": "Ancient Ruins",
-        "image": "/Portfolio/Assets/Images/PixelArt/Static/pix_6.png",
+        "image": "/portfolio/Assets/Images/PixelArt/Static/pix_6.png",
         "description": ""
     },
     {
         "id": "6",
         "title": "Dreamer's Paradigm",
-        "image": "/Portfolio/Assets/Images/PixelArt/Static/pix_4.png",
+        "image": "/portfolio/Assets/Images/PixelArt/Static/pix_4.png",
         "description": ""
     },
     {
         "id": "7",
         "title": "Mojo Mask",
-        "image": "/Portfolio/Assets/Images/PixelArt/Static/pix_7.png",
+        "image": "/portfolio/Assets/Images/PixelArt/Static/pix_7.png",
         "description": ""
     },
     {
         "id": "8",
         "title": "Cat's Paradise Thicket",
-        "image": "/Portfolio/Assets/Images/PixelArt/Static/pix_8.png",
+        "image": "/portfolio/Assets/Images/PixelArt/Static/pix_8.png",
         "description": ""
     },
     {
         "id": "9",
         "title": "Chill Farm",
-        "image": "/Portfolio/Assets/Images/PixelArt/Static/pix_9.png",
+        "image": "/portfolio/Assets/Images/PixelArt/Static/pix_9.png",
         "description": ""
     },
     {
         "id": "10",
         "title": "Milky's Way",
-        "image": "/Portfolio/Assets/Images/PixelArt/Static/pix_10.png",
+        "image": "/portfolio/Assets/Images/PixelArt/Static/pix_10.png",
         "description": ""
     },
     {
         "id": "11",
         "title": "Moonlight Duel",
-        "image": "/Portfolio/Assets/Images/PixelArt/Static/pix_11.png",
+        "image": "/portfolio/Assets/Images/PixelArt/Static/pix_11.png",
         "description": ""
     },
     {
         "id": "12",
         "title": "Nocturne Promenade",
-        "image": "/Portfolio/Assets/Images/PixelArt/Static/pix_12.png",
+        "image": "/portfolio/Assets/Images/PixelArt/Static/pix_12.png",
         "description": ""
     },
     {
         "id": "13",
         "title": "Rainforest Catou",
-        "image": "/Portfolio/Assets/Images/PixelArt/Static/pix_13.png",
+        "image": "/portfolio/Assets/Images/PixelArt/Static/pix_13.png",
         "description": ""
     },
     {
         "id": "14",
         "title": "Kingbird's Scarecrow",
-        "image": "/Portfolio/Assets/Images/PixelArt/Static/pix_14.png",
+        "image": "/portfolio/Assets/Images/PixelArt/Static/pix_14.png",
         "description": ""
     },
     {
         "id": "15",
         "title": "Mountain Forge",
-        "image": "/Portfolio/Assets/Images/PixelArt/Static/pix_15.png",
+        "image": "/portfolio/Assets/Images/PixelArt/Static/pix_15.png",
         "description": ""
     },
     {
         "id": "16",
         "title": "Through The Port",
-        "image": "/Portfolio/Assets/Images/PixelArt/Static/pix_16.png",
+        "image": "/portfolio/Assets/Images/PixelArt/Static/pix_16.png",
         "description": ""
     },
     {
         "id": "17",
         "title": "The Ritual",
-        "image": "/Portfolio/Assets/Images/PixelArt/Static/pix_17.png",
+        "image": "/portfolio/Assets/Images/PixelArt/Static/pix_17.png",
         "description": ""
     },
     {
         "id": "18",
         "title": "Autumnal Bridge",
-        "image": "/Portfolio/Assets/Images/PixelArt/Static/pix_18.png",
+        "image": "/portfolio/Assets/Images/PixelArt/Static/pix_18.png",
         "description": ""
     },
     {
         "id": "19",
         "title": "Longbeak Portal",
-        "image": "/Portfolio/Assets/Images/PixelArt/Static/pix_20.png",
+        "image": "/portfolio/Assets/Images/PixelArt/Static/pix_20.png",
         "description": ""
     },
     {
         "id": "20",
         "title": "Sailor's Port",
-        "image": "/Portfolio/Assets/Images/PixelArt/Static/pix_19.png",
+        "image": "/portfolio/Assets/Images/PixelArt/Static/pix_19.png",
         "description": ""
     }
     ]},
@@ -129,49 +129,49 @@
         {
             "id": "1",
             "title": "Lambert",
-            "image": "/Portfolio/Assets/Images/PixelArt/Anim/pixAnim_1.gif",
+            "image": "/portfolio/Assets/Images/PixelArt/Anim/pixAnim_1.gif",
             "description": ""
         },
         {
             "id": "2",
             "title": "Mercenary Traversal",
-            "image": "/Portfolio/Assets/Images/PixelArt/Anim/pixAnim_5.gif",
+            "image": "/portfolio/Assets/Images/PixelArt/Anim/pixAnim_5.gif",
             "description": ""
         },
         {
             "id": "3",
             "title": "Grimm",
-            "image": "/Portfolio/Assets/Images/PixelArt/Anim/pixAnim_3.gif",
+            "image": "/portfolio/Assets/Images/PixelArt/Anim/pixAnim_3.gif",
             "description": ""
         },
         {
             "id": "4",
             "title": "Pirate Ship Idle",
-            "image": "/Portfolio/Assets/Images/PixelArt/Anim/pixAnim_4.gif",
+            "image": "/portfolio/Assets/Images/PixelArt/Anim/pixAnim_4.gif",
             "description": ""
         },
         {
             "id": "5",
             "title": "Arachnophobia",
-            "image": "/Portfolio/Assets/Images/PixelArt/Anim/pixAnim_8.gif",
+            "image": "/portfolio/Assets/Images/PixelArt/Anim/pixAnim_8.gif",
             "description": ""
         },
         {
             "id": "6",
             "title": "Pirate Ship Movement",
-            "image": "/Portfolio/Assets/Images/PixelArt/Anim/pixAnim_2.gif",
+            "image": "/portfolio/Assets/Images/PixelArt/Anim/pixAnim_2.gif",
             "description": ""
         },
         {
             "id": "7",
             "title": "Slippery Rapier Guy",
-            "image": "/Portfolio/Assets/Images/PixelArt/Anim/pixAnim_7.gif",
+            "image": "/portfolio/Assets/Images/PixelArt/Anim/pixAnim_7.gif",
             "description": ""
         },
         {
             "id": "8",
             "title": "Floating Shopkeeper",
-            "image": "/Portfolio/Assets/Images/PixelArt/Anim/pixAnim_6.gif",
+            "image": "/portfolio/Assets/Images/PixelArt/Anim/pixAnim_6.gif",
             "description": ""
         }
     ] }

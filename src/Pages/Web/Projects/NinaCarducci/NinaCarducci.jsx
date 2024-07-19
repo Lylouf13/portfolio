@@ -26,25 +26,25 @@ export default function NinaCarducci() {
         en notifiant qu'il pouvait être intéressant d'héberger les images HD à l'extérieur du site, pour permettre leur accès aux potentiels
         clients`}
       />
-      <ProjectImage image={'/Portfolio/Assets/Images/Web/NinaCarducci/ninaCarducci_1.webp'} title={"Slider Principal du site, les images les plus lourdes se situaient ici"}/>
+      <ProjectImage image={'/portfolio/Assets/Images/Web/NinaCarducci/ninaCarducci_1.webp'} title={"Slider Principal du site, les images les plus lourdes se situaient ici"}/>
       <ProjectText 
       text={`Le travail sur l'optimisation ne s'est pas arrêté là, tout le système d'importation des fonts depuis google fonts a été réimplémenté pour ne charger que les
         fichiers nécessaires au site, et le chargement des différents scripts du site a été différé pour accélérer l'affichage du site à l'utilisateur`}
       />
-      <ProjectImage image={'/Portfolio/Assets/Images/Web/NinaCarducci/ninaCarducci_2.webp'} title={"Slider Principal du site, les images les plus lourdes se situaient ici"}/>
+      <ProjectImage image={'/portfolio/Assets/Images/Web/NinaCarducci/ninaCarducci_2.webp'} title={"Slider Principal du site, les images les plus lourdes se situaient ici"}/>
       <ProjectText 
       title={'Accessibilité'}
       text={`La seconde partie du travail sur le portfolio portait sur l'accessibilité de celui-ci, qui a été mesurée au travers du rapport Lightouse et de l'extension
         Wave. Une grande partie du balisage html a été revue pour être plus cohérente (notamment sur l'ordre des balises de titres). <br />
         Certains éléments ne présentaient pas suffisament de contraste et ont dû être légèrement modifiés également.`}
       />
-      <ProjectImage image={'/Portfolio/Assets/Images/Web/NinaCarducci/ninaCarducci_3.webp'} title={"Sections des services, qui a nécessité un travail de rebalisage"}/>
-      <ProjectImage image={'/Portfolio/Assets/Images/Web/NinaCarducci/ninaCarducci_4.webp'} title={`Affichage des travaux de Nina Carducci, les boutons de tri ne comportaient
+      <ProjectImage image={'/portfolio/Assets/Images/Web/NinaCarducci/ninaCarducci_3.webp'} title={"Sections des services, qui a nécessité un travail de rebalisage"}/>
+      <ProjectImage image={'/portfolio/Assets/Images/Web/NinaCarducci/ninaCarducci_4.webp'} title={`Affichage des travaux de Nina Carducci, les boutons de tri ne comportaient
         à l'origine pas un contraste suffisament fort`}/>
 
       <div className='webProject__container webProject__container-row'>
-        <ProjectImage image={'/Portfolio/Assets/Images/Web/NinaCarducci/ninaCarducci_5.webp'} title={"Rapport Lightouse, avant optimisation"}/>
-        <ProjectImage image={'/Portfolio/Assets/Images/Web/NinaCarducci/ninaCarducci_6.webp'} title={"Rapport Lightouse, après optimisation"}/>
+        <ProjectImage image={'/portfolio/Assets/Images/Web/NinaCarducci/ninaCarducci_5.webp'} title={"Rapport Lightouse, avant optimisation"}/>
+        <ProjectImage image={'/portfolio/Assets/Images/Web/NinaCarducci/ninaCarducci_6.webp'} title={"Rapport Lightouse, après optimisation"}/>
       </div>
 
       <ProjectText 
@@ -54,8 +54,8 @@ export default function NinaCarducci() {
         J'ai également intégré des éléments permettant de générer des cards pour le lien du site, via OpenGraph ou Twitter Cards. Ces éléments rendent 
         l'utilisation du lien sur les réseaux sociaux plus sympathiques pour les potentiels utilisateurs`}
       />
-      <ProjectImage image={'/Portfolio/Assets/Images/Web/NinaCarducci/ninaCarducci_8.webp'} title={"Card générée par OpenGraph"}/>
-      <ProjectImage image={'/Portfolio/Assets/Images/Web/NinaCarducci/ninaCarducci_9.webp'} title={"Card générée par Twitte Cards"}/>
+      <ProjectImage image={'/portfolio/Assets/Images/Web/NinaCarducci/ninaCarducci_8.webp'} title={"Card générée par OpenGraph"}/>
+      <ProjectImage image={'/portfolio/Assets/Images/Web/NinaCarducci/ninaCarducci_9.webp'} title={"Card générée par Twitte Cards"}/>
     </section>  
   )
 }

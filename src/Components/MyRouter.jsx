@@ -26,26 +26,26 @@ import LightyProject from '../Pages/Games/Projects/LightyProject.jsx'
 
 export default function Router() {
   return (
-    <Routes basename="/Portfolio">
-        <Route path="/Portfolio" element={<Home/>}/>
-        <Route path="/Portfolio/web" element={<Web/>}>
-            <Route path="/Portfolio/web/BookiProject" element={<BookiProject/>}/>
-            <Route path="/Portfolio/web/KasaProject" element={<KasaProject/>}/>
-            <Route path="/Portfolio/web/SevenEventsProject" element={<SevenEventsProject/>}/>
-            <Route path="/Portfolio/web/ArgentBankProject" element={<ArgentBankProject/>}/>
-            <Route path="/Portfolio/web/NinaCarducciProject" element={<NinaCarducciProject/>}/>
-            <Route path="/Portfolio/web/SophieBluelProject" element={<SophieBluelProject/>}/>
-            <Route path="/Portfolio/web/OhMyFoodProject" element={<OhMyFoodProject/>}/>
+    <Routes basename="/portfolio">
+        <Route path="/portfolio" element={<Home/>}/>
+        <Route path="/portfolio/web" element={<Web/>}>
+            <Route path="/portfolio/web/BookiProject" element={<BookiProject/>}/>
+            <Route path="/portfolio/web/KasaProject" element={<KasaProject/>}/>
+            <Route path="/portfolio/web/SevenEventsProject" element={<SevenEventsProject/>}/>
+            <Route path="/portfolio/web/ArgentBankProject" element={<ArgentBankProject/>}/>
+            <Route path="/portfolio/web/NinaCarducciProject" element={<NinaCarducciProject/>}/>
+            <Route path="/portfolio/web/SophieBluelProject" element={<SophieBluelProject/>}/>
+            <Route path="/portfolio/web/OhMyFoodProject" element={<OhMyFoodProject/>}/>
         </Route>
-        <Route path="/Portfolio/games" element={<Games/>}>
-            <Route path="/Portfolio/games/EtherProject" element={<EtherProject/>}/>
-            <Route path="/Portfolio/games/ColorDamageProject" element={<ColorDamageProject/>}/>
-            <Route path="/Portfolio/games/RiseFromHellProject" element={<RiseFromHellProject/>}/>
-            <Route path="/Portfolio/games/EtherGenesisProject" element={<EtherGenesisProject/>}/>
-            <Route path="/Portfolio/games/AotwProject" element={<AotwProject/>}/>
-            <Route path="/Portfolio/games/LightyProject" element={<LightyProject/>}/>
+        <Route path="/portfolio/games" element={<Games/>}>
+            <Route path="/portfolio/games/EtherProject" element={<EtherProject/>}/>
+            <Route path="/portfolio/games/ColorDamageProject" element={<ColorDamageProject/>}/>
+            <Route path="/portfolio/games/RiseFromHellProject" element={<RiseFromHellProject/>}/>
+            <Route path="/portfolio/games/EtherGenesisProject" element={<EtherGenesisProject/>}/>
+            <Route path="/portfolio/games/AotwProject" element={<AotwProject/>}/>
+            <Route path="/portfolio/games/LightyProject" element={<LightyProject/>}/>
         </Route>
-        <Route path="/Portfolio/pixelart" element={<PixelArt/>}/>
+        <Route path="/portfolio/pixelart" element={<PixelArt/>}/>
     </Routes>
     )
 }

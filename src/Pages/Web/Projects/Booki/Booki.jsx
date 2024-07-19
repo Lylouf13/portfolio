@@ -28,15 +28,15 @@ export default function Booki() {
           petite base de code concernant les cards utilisées dans la section Hébergements du site. 
           `}
       />
-      <ProjectImage image={'/Portfolio/Assets/Images/Web/Booki/booki_1.webp'} title={"La section recherche du site, avec un input utilisateur et des éléments de filtrage"}/>
+      <ProjectImage image={'/portfolio/Assets/Images/Web/Booki/booki_1.webp'} title={"La section recherche du site, avec un input utilisateur et des éléments de filtrage"}/>
       <ProjectText 
         text=
           {`Booki a majoritairement été constitué de tests d'utilisation de flexbox, qui permet de créer la majorité éléments intégrés.
             La searchbar s'est révélée être l'élément le plus technique à intégrer pour obtenir le rendu seamless entre les différents éléments.
           `}
       />
-      <ProjectImage image={'/Portfolio/Assets/Images/Web/Booki/booki_2.webp'} title={"La section hébergements du site, un découpage en cards des différents locations"}/>
-      <ProjectImage image={'/Portfolio/Assets/Images/Web/Booki/booki_3.webp'} title={"Les cards d'activité du site, emphase mise sur les images des activités"}/>
+      <ProjectImage image={'/portfolio/Assets/Images/Web/Booki/booki_2.webp'} title={"La section hébergements du site, un découpage en cards des différents locations"}/>
+      <ProjectImage image={'/portfolio/Assets/Images/Web/Booki/booki_3.webp'} title={"Les cards d'activité du site, emphase mise sur les images des activités"}/>
       <ProjectText 
         text=
           {`Les sections Hébergements et Activités utilisent une base de code similaire pour les cards, avec une emphase mise respectivement sur
@@ -53,7 +53,7 @@ export default function Booki() {
             passage en colonne des deux parties de la section Hébergements.
           `}
       />
-            <ProjectImage image={'/Portfolio/Assets/Images/Web/Booki/booki_5.webp'} title={"Intégration responsive tablette des hébergements"}/>
+            <ProjectImage image={'/portfolio/Assets/Images/Web/Booki/booki_5.webp'} title={"Intégration responsive tablette des hébergements"}/>
 
       <ProjectText 
         title={'Responsive | Mobile'}
@@ -64,9 +64,9 @@ export default function Booki() {
           `}
       />
       <div className='webProject__container webProject__container-row'>
-        <ProjectImage image={'/Portfolio/Assets/Images/Web/Booki/booki_6.webp'} title={"Responsive mobile de la recherche"}/>
-        <ProjectImage image={'/Portfolio/Assets/Images/Web/Booki/booki_7.webp'} title={"Responsive mobile des plus populaires"}/>
-        <ProjectImage image={'/Portfolio/Assets/Images/Web/Booki/booki_8.webp'} title={"Responsive mobile des hébergements"}/>
+        <ProjectImage image={'/portfolio/Assets/Images/Web/Booki/booki_6.webp'} title={"Responsive mobile de la recherche"}/>
+        <ProjectImage image={'/portfolio/Assets/Images/Web/Booki/booki_7.webp'} title={"Responsive mobile des plus populaires"}/>
+        <ProjectImage image={'/portfolio/Assets/Images/Web/Booki/booki_8.webp'} title={"Responsive mobile des hébergements"}/>
       </div>
       <ProjectText 
         text=

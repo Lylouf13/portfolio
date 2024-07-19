@@ -17,12 +17,12 @@ export default function AotwProject() {
       text={`Argent Bank est un projet pour lequel les différents éléments visuels étaient déjà prêts, mais qui nécessitait un portage sur React, le gros du projet
         résidait dans l'intégration des fonctionnalités : login et récupération de données.`}
       />
-      <ProjectImage image={'/Portfolio/Assets/Images/Games/aotw/aotw_1.webp'} title={"NYI"}/>
-      <ProjectImage image={'/Portfolio/Assets/Images/Games/aotw/aotw_2.webp'} title={"NYI"}/>
+      <ProjectImage image={'/portfolio/Assets/Images/Games/aotw/aotw_1.webp'} title={"NYI"}/>
+      <ProjectImage image={'/portfolio/Assets/Images/Games/aotw/aotw_2.webp'} title={"NYI"}/>
 
-      <ProjectVideo link='/Portfolio/Assets/Images/Games/aotw/aotw_g1.webm' title={`NYI`}/>
-      <ProjectVideo link='/Portfolio/Assets/Images/Games/aotw/aotw_g2.webm' title={`NYI`}/>
-      <ProjectVideo link='/Portfolio/Assets/Images/Games/aotw/aotw_g3.webm' title={`NYI`}/>
+      <ProjectVideo link='/portfolio/Assets/Images/Games/aotw/aotw_g1.webm' title={`NYI`}/>
+      <ProjectVideo link='/portfolio/Assets/Images/Games/aotw/aotw_g2.webm' title={`NYI`}/>
+      <ProjectVideo link='/portfolio/Assets/Images/Games/aotw/aotw_g3.webm' title={`NYI`}/>
 
 
 

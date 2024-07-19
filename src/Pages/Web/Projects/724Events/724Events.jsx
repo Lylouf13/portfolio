@@ -22,7 +22,7 @@ export default function SevenEvents() {
           L'objectif était des faire passer au site les différents tests qui avaient été écrits au préalable pour les différentes features
           intégrées.`}
       />
-      <ProjectVideo link='/Portfolio/Assets/Images/Web/724Events/724Events_slider.webm' title='Le slider du site fonctionnel'/>
+      <ProjectVideo link='/portfolio/Assets/Images/Web/724Events/724Events_slider.webm' title='Le slider du site fonctionnel'/>
       <ProjectText 
         text={`La partie haute du site comportait quelques bugs mineurs, les éléments de navigations n'étaient pas liés aux bons id
           pour envoyer l'utilisateur à l'endroit attendu. Quant au slider, il ne loopait pas en arrivant à la fin des éléments, faisant un arret
@@ -34,7 +34,7 @@ export default function SevenEvents() {
           en affichant 9 projets par page et en adaptant le nombre de pages en fonction des éléments présents dans la catégorie sélectionnée. <br />
           Tout cela a nécessité de trier et recouper les informations reçues depuis le json, puis de les afficher par blocs de 9 maximum`}
       />
-      <ProjectVideo link='/Portfolio/Assets/Images/Web/724Events/724Events_filter.webm' title={`L'affichage du filtrage de projets`}/>
+      <ProjectVideo link='/portfolio/Assets/Images/Web/724Events/724Events_filter.webm' title={`L'affichage du filtrage de projets`}/>
 
       <ProjectText
         text={`Les derniers éléments corrigés étaient mineurs, des typos dans des déclarations, des éléments temporaire ou de test intégrés d'une 

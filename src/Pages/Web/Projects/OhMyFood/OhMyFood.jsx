@@ -24,9 +24,9 @@ export default function OhMyFood() {
           et l'intégration des différents éléments ont démarré sur les formats mobiles, et ont ensuite été déployé vers le desktop`} 
       />
       <div className='webProject__container webProject__container-row'>
-        <ProjectImage image={'/Portfolio/Assets/Images/Web/OhMyFood/ohmyfood_1.webp'} title={"Intégration mobile - homepage statique"}/>
-        <ProjectImage image={'/Portfolio/Assets/Images/Web/OhMyFood/ohmyfood_2.webp'} title={"Intégration mobile - Cards des restaurants"}/>
-        <ProjectImage image={'/Portfolio/Assets/Images/Web/OhMyFood/ohmyfood_3.webp'} title={"Intégration mobile - Page des restaurants"}/>
+        <ProjectImage image={'/portfolio/Assets/Images/Web/OhMyFood/ohmyfood_1.webp'} title={"Intégration mobile - homepage statique"}/>
+        <ProjectImage image={'/portfolio/Assets/Images/Web/OhMyFood/ohmyfood_2.webp'} title={"Intégration mobile - Cards des restaurants"}/>
+        <ProjectImage image={'/portfolio/Assets/Images/Web/OhMyFood/ohmyfood_3.webp'} title={"Intégration mobile - Page des restaurants"}/>
       </div>
       <ProjectText 
         title={'Éléments animés'}
@@ -34,17 +34,17 @@ export default function OhMyFood() {
           compris pour des éléments à état comme les éléments des menus de restaurants avec la checkmark`} 
       />
       <div className='webProject__container webProject__container-row'>
-        <ProjectVideo link='/Portfolio/Assets/Images/Web/OhMyFood/ohmyfood_g1.webm' title="Loader & Homepage"/>
-        <ProjectVideo link='/Portfolio/Assets/Images/Web/OhMyFood/ohmyfood_g2.webm' title="Navigation & Restaurants"/>
-        <ProjectVideo link='/Portfolio/Assets/Images/Web/OhMyFood/ohmyfood_g3.webm' title="Interaction menus"/>
+        <ProjectVideo link='/portfolio/Assets/Images/Web/OhMyFood/ohmyfood_g1.webm' title="Loader & Homepage"/>
+        <ProjectVideo link='/portfolio/Assets/Images/Web/OhMyFood/ohmyfood_g2.webm' title="Navigation & Restaurants"/>
+        <ProjectVideo link='/portfolio/Assets/Images/Web/OhMyFood/ohmyfood_g3.webm' title="Interaction menus"/>
       </div>
       <ProjectText 
         title={'Intégration desktop'}
         text={"Les différents élements du site ont ensuité été déployés vers une version desktop / tablette"} 
       />
-      <ProjectVideo link='/Portfolio/Assets/Images/Web/OhMyFood/ohmyfood_g5.webm' title="loading desktop ohmyfood"/>
-      <ProjectImage image={'/Portfolio/Assets/Images/Web/OhMyFood/ohmyfood_7.webp'} desc="cards des restaurants"/>
-      <ProjectVideo link='/Portfolio/Assets/Images/Web/OhMyFood/ohmyfood_g6.webm' title="L'intégration desktop des différentes parties du site"/>
+      <ProjectVideo link='/portfolio/Assets/Images/Web/OhMyFood/ohmyfood_g5.webm' title="loading desktop ohmyfood"/>
+      <ProjectImage image={'/portfolio/Assets/Images/Web/OhMyFood/ohmyfood_7.webp'} desc="cards des restaurants"/>
+      <ProjectVideo link='/portfolio/Assets/Images/Web/OhMyFood/ohmyfood_g6.webm' title="L'intégration desktop des différentes parties du site"/>
 
       <ProjectText 
         text={`La principale montée en compétence sur ce projet a été l'utilisation de Sass, ainsi que la définition de

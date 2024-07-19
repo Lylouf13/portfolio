@@ -22,7 +22,7 @@ export default function ArgentBank() {
       text={`Argent Bank est un projet pour lequel les différents éléments visuels étaient déjà prêts, mais qui nécessitait un portage sur React, le gros du projet
         résidait dans l'intégration des fonctionnalités : login et récupération de données.`}
       />
-      <ProjectImage image={'/Portfolio/Assets/Images/Web/ArgentBank/argentBank_1.webp'} title={"Homepage Argent Bank"}/>
+      <ProjectImage image={'/portfolio/Assets/Images/Web/ArgentBank/argentBank_1.webp'} title={"Homepage Argent Bank"}/>
       <ProjectText 
       title={'Redux'}
       text={`La récupération des différentes données et le système de login se font via une api qui interagit avec la base de données faite avec MongoDB.
@@ -31,13 +31,13 @@ export default function ArgentBank() {
         Redux permet ainsi via l'api de valider le login utilisateur, puis de récupérer et stocker les différentes informations contenues dans la base de données afin 
         de les afficher à l'utilisateur`}
       />
-      <ProjectImage image={'/Portfolio/Assets/Images/Web/ArgentBank/argentBank_2.webp'} title={"Page des comptes de l'utilisateur, accessible uniquement via login avec un token"}/>
+      <ProjectImage image={'/portfolio/Assets/Images/Web/ArgentBank/argentBank_2.webp'} title={"Page des comptes de l'utilisateur, accessible uniquement via login avec un token"}/>
       <ProjectText 
       text={`Parmi les interactions disponnibles, l'utilisateur doit être en mesure de modifier son nom d'utilisateur, mais pas son nom et prénom. Cette feature
         implique d'envoyer une requête de modification de données à la DB via l'api, puis de modifier les informations contenues dans le store Redux côté utilisateur.`}
       />
-      <ProjectImage image={'/Portfolio/Assets/Images/Web/ArgentBank/argentBank_3.webp'} title={""}/>
-      <ProjectImage image={'/Portfolio/Assets/Images/Web/ArgentBank/argentBank_4.webp'} title={`Panneau de modification du nom d'utilisateur`}/>
+      <ProjectImage image={'/portfolio/Assets/Images/Web/ArgentBank/argentBank_3.webp'} title={""}/>
+      <ProjectImage image={'/portfolio/Assets/Images/Web/ArgentBank/argentBank_4.webp'} title={`Panneau de modification du nom d'utilisateur`}/>
 
       <ProjectText 
       text={`J'ai également écrit des modèles de structure de données et une base d'api pour les features suivantes du site, à savoir les détails des transactions pour

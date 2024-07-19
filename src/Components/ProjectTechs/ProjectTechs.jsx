@@ -9,7 +9,7 @@ export default function ProjectTechs(props) {
         <img
         className='projectTechs__icon'
         key={`Techs_icon_${techno}`} 
-        src={`/Portfolio/Assets/Images/Web/TechIcons/icon_${techno}.webp`}
+        src={`/portfolio/Assets/Images/Web/TechIcons/icon_${techno}.webp`}
         alt={`${techno} logo`}
         />)
       }
