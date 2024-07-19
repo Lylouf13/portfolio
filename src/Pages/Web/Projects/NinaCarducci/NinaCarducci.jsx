@@ -13,7 +13,7 @@ export default function NinaCarducci() {
     <section  className='webProject'>
       <h1 className='webProject__title'>Nina Carducci - Portfolio</h1>
       <ProjectTechs technos={["html", "js", "css"]}/>
-      <CtaButton title={"Projet Github"} link={"https://github.com/Lylouf13/oc9_seo"}/>
+      <CtaButton title={"Projet Github"} link={"https://github.com/Lylouf13/oc9_seo"} icon={"outerLink"}/>
 
       <ProjectSkills title='Compétences associées' skills={["Optimisation de site", "Référencement Local", "Accessibilité"]}/>
       <ProjectText 

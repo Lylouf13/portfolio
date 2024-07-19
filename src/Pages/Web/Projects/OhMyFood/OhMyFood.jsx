@@ -14,7 +14,7 @@ export default function OhMyFood() {
     <section className='webProject'>
       <h1 className='webProject__title'>Ohmyfood</h1>
       <ProjectTechs technos={["html", "sass"]}/>
-      <CtaButton title={"Projet Github"} link={"https://github.com/Lylouf13/oc4-ohmyfood"}/>
+      <CtaButton title={"Projet Github"} link={"https://github.com/Lylouf13/oc4-ohmyfood"} icon={"outerLink"}/>
 
       <ProjectSkills title='Compétences associées' skills={["Intégration depuis une maquette", "Sass", "Animations CSS"]}/>
 

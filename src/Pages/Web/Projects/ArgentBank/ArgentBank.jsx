@@ -15,7 +15,7 @@ export default function ArgentBank() {
     <section className='webProject'>
       <h1 className='webProject__title'>ArgentBank</h1>
       <ProjectTechs technos={["react", "sass"]}/>
-      <CtaButton title={"Projet Github"} link={"https://github.com/Lylouf13/oc11_ArgentBank-website"}/>
+      <CtaButton title={"Projet Github"} link={"https://github.com/Lylouf13/oc11_ArgentBank-website"} icon={"outerLink"}/>
       <ProjectSkills title='Compétences associées' skills={["Redux", "Calls API", "Intégration React"]}/>
       <ProjectText 
       title={"Portage"}

@@ -12,7 +12,7 @@ export default function SevenEvents() {
     <section className='webProject'>
       <h1 className='webProject__title'>724 Events</h1>
       <ProjectTechs technos={["react", "sass"]}/>
-      <CtaButton title={"Projet Github"} link={"https://github.com/Lylouf13/oc10_reactDebug"}/>
+      <CtaButton title={"Projet Github"} link={"https://github.com/Lylouf13/oc10_reactDebug"}icon={"outerLink"}/>
       <ProjectSkills title='Compétences associées' skills={["Débug de code pré-existant", "Utilisation de fichiers JSON", "Tests"]}/>
       <ProjectText 
         title={`Bug Fixing`}

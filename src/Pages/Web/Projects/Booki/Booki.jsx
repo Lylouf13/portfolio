@@ -16,7 +16,7 @@ export default function Booki() {
     <section className='webProject'>
       <h1 className='webProject__title'>Booki</h1>
       <ProjectTechs technos={["html", "css"]}/>
-      <CtaButton title={"Projet Github"} link={"https://github.com/Lylouf13/OC_3"}/>
+      <CtaButton title={"Projet Github"} link={"https://github.com/Lylouf13/OC_3"} icon={"outerLink"}/>
       <ProjectSkills title='Compétences associées' skills={["HTML", "CSS", "Intégration à partir d'une maquette"]}/>
       <ProjectText 
         title ='Intégration'

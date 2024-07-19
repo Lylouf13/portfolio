@@ -15,7 +15,7 @@ export default function Kasa() {
     <section className='webProject'>
       <h1 className='webProject__title'>Kasa</h1>
       <ProjectTechs technos={["react", "sass"]}/>
-      <CtaButton title={"Projet Github"} link={"https://github.com/Lylouf13/oc8_kasa"}/>
+      <CtaButton title={"Projet Github"} link={"https://github.com/Lylouf13/oc8_kasa"} icon={"outerLink"}/>
 
       <ProjectSkills title='Compétences associées' skills={["Intégration React", "React Router", "Génération de contenu à partir d'un JSON"]}/>
       <ProjectText 
