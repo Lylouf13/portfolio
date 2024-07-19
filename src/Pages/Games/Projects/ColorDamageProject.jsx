@@ -1,26 +1,26 @@
 import React from 'react'
 
 import ProjectImage from '../../../Components/ProjectImage/ProjectImage'
-import ProjectVideo from '../../../Components/ProjectVideo/ProjectVideo'
 import ProjectText from '../../../Components/ProjectText/ProjectText'
-import CtaButton from '../../../Components/CTA/CtaButton'
+import ProjectSkills from '../../../Components/ProjectSkills/ProjectSkills'
+
 
 export default function ColorDamageProject() {
   return (
     <article className='webProject'>
       <h1 className='webProject__title'>Color Damage</h1>
-      <CtaButton title={"Itch.io"} link={"https://lylouf.itch.io/apple-on-the-walls"} icon={"outerLink"}/>
+      <ProjectSkills title={"Rôle sur le projet"}skills={["Game Designer","Développeur / Construct"]}/>
       <ProjectText 
-      title={"Puzzle Platformer"}
-      text={`Argent Bank est un projet pour lequel les différents éléments visuels étaient déjà prêts, mais qui nécessitait un portage sur React, le gros du projet
-        résidait dans l'intégration des fonctionnalités : login et récupération de données.`}
+      title={"Shoot'em Up tricolore "}
+      text={`Color Damage est un projet de groupe de première année d'étude à l'ICAN, dans lequel le joueur contrôle un vaisseau attaché à un cercle,
+        autour duquel il peut tourner. Il peut également tirer des projectiles de 3 couleurs différentes, qui détruiront les éléments de même couleur. Il peut quant à lui
+        traverser les éléments de sa propre couleur. <br />
+        Le prototype comportait deux situation de jeu, une situation de vague de patterns à esquiver / détruire, et une autre de boss fight.`}
       />
-      <ProjectImage image={'/portfolio/Assets/Images/Games/AOTW/aotw_1.webp'} title={"NYI"}/>
-      <ProjectImage image={'/portfolio/Assets/Images/Games/AOTW/aotw_2.webp'} title={"NYI"}/>
+      <ProjectImage image={'/portfolio/Assets/Images/Games/ColorDamage/colorDamage_2.webp'}/>
+      <ProjectImage image={'/portfolio/Assets/Images/Games/ColorDamage/colorDamage_3.webp'} title={"Deux patterns de Color Damage"}/>
+      <ProjectImage image={'/portfolio/Assets/Images/Games/ColorDamage/colorDamage_1.webp'} title={"Le boss du prototype"}/>
 
-      <ProjectVideo link='/portfolio/Assets/Images/Games/AOTW/aotw_g1.webm' title={`NYI`}/>
-      <ProjectVideo link='/portfolio/Assets/Images/Games/AOTW/aotw_g2.webm' title={`NYI`}/>
-      <ProjectVideo link='/portfolio/Assets/Images/Games/AOTW/aotw_g3.webm' title={`NYI`}/>
     </article>  
   )
 }
