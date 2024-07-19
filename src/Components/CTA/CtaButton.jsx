@@ -6,7 +6,7 @@ export default function CtaButton(data) {
   return (
     <Link to={data.link} className='cta'>
       <p>{data.title}</p>
-      {data.icon && <img className='cta__icon'src={`/Portfolio/Assets/images/Misc/CtaIcons/${data.icon}.png`} alt={"icon"}/>}
+      {data.icon && <img className='cta__icon'src={`/Portfolio/Assets/Images/Misc/CtaIcons/${data.icon}.png`} alt={"icon"}/>}
     </Link>
   )
 }
