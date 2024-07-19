@@ -13,7 +13,7 @@ import CtaButton from '../../../../Components/CTA/CtaButton'
 export default function Booki() {
 
   return (
-    <section className='webProject'>
+    <article className='webProject'>
       <h1 className='webProject__title'>Booki</h1>
       <ProjectTechs technos={["html", "css"]}/>
       <CtaButton title={"Projet Github"} link={"https://github.com/Lylouf13/OC_3"} icon={"outerLink"}/>
@@ -74,6 +74,6 @@ export default function Booki() {
             ou de lien avec des data sous un quelconque format a permi de se concentrer sur la CSS et les logiques de boites du HTML. 
           `}
       />
-    </section>
+    </article>
   )
 }

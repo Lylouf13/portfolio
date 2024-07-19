@@ -12,7 +12,7 @@ import CtaButton from '../../../../Components/CTA/CtaButton'
 
 export default function Kasa() {
   return (
-    <section className='webProject'>
+    <article className='webProject'>
       <h1 className='webProject__title'>Kasa</h1>
       <ProjectTechs technos={["react", "sass"]}/>
       <CtaButton title={"Projet Github"} link={"https://github.com/Lylouf13/oc8_kasa"} icon={"outerLink"}/>
@@ -44,6 +44,6 @@ export default function Kasa() {
         <ProjectImage image={'/portfolio/Assets/Images/Web/Kasa/kasa_4.webp'} title={"Page de location Mobile"}/>
         <ProjectImage image={'/portfolio/Assets/Images/Web/Kasa/kasa_6.webp'} title={"A propos Mobile"}/>
       </div>
-    </section>
+    </article>
   )
 }

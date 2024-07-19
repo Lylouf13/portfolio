@@ -3,13 +3,11 @@ import React from 'react'
 import ProjectImage from '../../../Components/ProjectImage/ProjectImage'
 import ProjectVideo from '../../../Components/ProjectVideo/ProjectVideo'
 import ProjectText from '../../../Components/ProjectText/ProjectText'
-import ProjectSkills from '../../../Components/ProjectSkills/ProjectSkills'
-import ProjectTechs from '../../../Components/ProjectTechs/ProjectTechs'
 import CtaButton from '../../../Components/CTA/CtaButton'
 
 export default function AotwProject() {
   return (
-<section className='webProject'>
+    <article className='webProject'>
       <h1 className='webProject__title'>Apple On The Walls</h1>
       <CtaButton title={"Itch.io"} link={"https://lylouf.itch.io/apple-on-the-walls"} icon={"outerLink"}/>
       <ProjectText 
@@ -23,8 +21,6 @@ export default function AotwProject() {
       <ProjectVideo link='/portfolio/Assets/Images/Games/AOTW/aotw_g1.webm' title={`NYI`}/>
       <ProjectVideo link='/portfolio/Assets/Images/Games/AOTW/aotw_g2.webm' title={`NYI`}/>
       <ProjectVideo link='/portfolio/Assets/Images/Games/AOTW/aotw_g3.webm' title={`NYI`}/>
-
-
-
-    </section>  )
+    </article>  
+  )
 }

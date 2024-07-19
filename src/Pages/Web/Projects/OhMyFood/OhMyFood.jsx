@@ -11,7 +11,7 @@ import CtaButton from '../../../../Components/CTA/CtaButton'
 
 export default function OhMyFood() {
   return (
-    <section className='webProject'>
+    <article className='webProject'>
       <h1 className='webProject__title'>Ohmyfood</h1>
       <ProjectTechs technos={["html", "sass"]}/>
       <CtaButton title={"Projet Github"} link={"https://github.com/Lylouf13/oc4-ohmyfood"} icon={"outerLink"}/>
@@ -53,6 +53,6 @@ export default function OhMyFood() {
           réutilisables, notamment au travers des mixins`} 
       />
 
-    </section>
+    </article>
   )
 }

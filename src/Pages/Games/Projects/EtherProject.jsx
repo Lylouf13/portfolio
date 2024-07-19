@@ -1,28 +1,26 @@
 import React from 'react'
 
 import ProjectImage from '../../../Components/ProjectImage/ProjectImage'
+import ProjectVideo from '../../../Components/ProjectVideo/ProjectVideo'
 import ProjectText from '../../../Components/ProjectText/ProjectText'
-import ProjectSkills from '../../../Components/ProjectSkills/ProjectSkills'
-import ProjectTechs from '../../../Components/ProjectTechs/ProjectTechs'
 import CtaButton from '../../../Components/CTA/CtaButton'
 
 export default function EtherProject() {
-
   return (
-    <article className='project'>
-      <div>
-        <div className="box"></div>
-        <div className="green"></div>
-        <div className="blue"></div>
-      </div>
-      <h1 className='project__title'>EtherProject</h1>
-      <div className='horizontalContainer'>
-        <img className='horizontalContainer__image' src="/Assets/Games/Ether/Ether3.webp" alt="truc"/>
-        <p className='horizontalContainer__text'>
-          Ether n'est pas un jeu à proprement parler, mais un jouet <br />
-          Pas de condition de victoire à atteindre, simplement le plaisir de l'interaction
-        </p>
-      </div>
-    </article>
+    <article className='webProject'>
+      <h1 className='webProject__title'>Ether</h1>
+      <CtaButton title={"Itch.io"} link={"https://lylouf.itch.io/apple-on-the-walls"} icon={"outerLink"}/>
+      <ProjectText 
+      title={"Puzzle Platformer"}
+      text={`Argent Bank est un projet pour lequel les différents éléments visuels étaient déjà prêts, mais qui nécessitait un portage sur React, le gros du projet
+        résidait dans l'intégration des fonctionnalités : login et récupération de données.`}
+      />
+      <ProjectImage image={'/portfolio/Assets/Images/Games/AOTW/aotw_1.webp'} title={"NYI"}/>
+      <ProjectImage image={'/portfolio/Assets/Images/Games/AOTW/aotw_2.webp'} title={"NYI"}/>
+
+      <ProjectVideo link='/portfolio/Assets/Images/Games/AOTW/aotw_g1.webm' title={`NYI`}/>
+      <ProjectVideo link='/portfolio/Assets/Images/Games/AOTW/aotw_g2.webm' title={`NYI`}/>
+      <ProjectVideo link='/portfolio/Assets/Images/Games/AOTW/aotw_g3.webm' title={`NYI`}/>
+    </article>  
   )
 }

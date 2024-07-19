@@ -12,7 +12,7 @@ import CtaButton from '../../../../Components/CTA/CtaButton'
 export default function ArgentBank() {
 
   return (
-    <section className='webProject'>
+    <article className='webProject'>
       <h1 className='webProject__title'>ArgentBank</h1>
       <ProjectTechs technos={["react", "sass"]}/>
       <CtaButton title={"Projet Github"} link={"https://github.com/Lylouf13/oc11_ArgentBank-website"} icon={"outerLink"}/>
@@ -44,6 +44,6 @@ export default function ArgentBank() {
         les différents compte, allant de la récupération des données à la modification de leurs détails par l'utilisateur.`}
       />
 
-    </section>
+    </article>
   )
 }

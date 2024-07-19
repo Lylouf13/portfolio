@@ -10,7 +10,7 @@ import CtaButton from '../../../../Components/CTA/CtaButton'
 
 export default function NinaCarducci() {
   return (
-    <section  className='webProject'>
+    <article  className='webProject'>
       <h1 className='webProject__title'>Nina Carducci - Portfolio</h1>
       <ProjectTechs technos={["html", "js", "css"]}/>
       <CtaButton title={"Projet Github"} link={"https://github.com/Lylouf13/oc9_seo"} icon={"outerLink"}/>
@@ -56,6 +56,6 @@ export default function NinaCarducci() {
       />
       <ProjectImage image={'/portfolio/Assets/Images/Web/NinaCarducci/ninaCarducci_8.webp'} title={"Card générée par OpenGraph"}/>
       <ProjectImage image={'/portfolio/Assets/Images/Web/NinaCarducci/ninaCarducci_9.webp'} title={"Card générée par Twitte Cards"}/>
-    </section>  
+    </article>  
   )
 }

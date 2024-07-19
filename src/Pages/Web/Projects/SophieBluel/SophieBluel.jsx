@@ -12,7 +12,7 @@ import CtaButton from '../../../../Components/CTA/CtaButton'
 
 export default function SophieBluel() {
   return (
-    <section className='webProject'>
+    <article className='webProject'>
       <h1 className='webProject__title'>Sophie Bluel</h1>
       <ProjectTechs technos={["html", "js", "css"]}/>
       <CtaButton title={"Projet Github"} link={"https://github.com/Lylouf13/oc6-archi"} icon={"outerLink"}/>
@@ -54,6 +54,6 @@ export default function SophieBluel() {
       <ProjectImage image={'/portfolio/Assets/Images/Web/SophieBluel/sophieBluel_5.webp'} title={"Modale d'ajout de projet incomplète"}/>
       </div>
 
-    </section>
+    </article>
   )
 }

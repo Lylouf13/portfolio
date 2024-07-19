@@ -9,7 +9,7 @@ import CtaButton from '../../../../Components/CTA/CtaButton'
 
 export default function SevenEvents() {
   return (
-    <section className='webProject'>
+    <article className='webProject'>
       <h1 className='webProject__title'>724 Events</h1>
       <ProjectTechs technos={["react", "sass"]}/>
       <CtaButton title={"Projet Github"} link={"https://github.com/Lylouf13/oc10_reactDebug"}icon={"outerLink"}/>
@@ -42,6 +42,6 @@ export default function SevenEvents() {
           source des erreurs)`}
       />
 
-    </section>
+    </article>
   )
 }

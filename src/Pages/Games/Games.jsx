@@ -1,8 +1,18 @@
-import React from 'react'
-import { Outlet } from 'react-router-dom'
+import {React, useEffect} from 'react'
+import { Outlet, useLocation } from 'react-router-dom'
 import GameProjectSlider from '../../Containers/GameProjectSlider/GameProjectSlider'
 
 export default function Games() {
+
+  const location = useLocation()
+
+useEffect(() => {
+    const element = document.getElementById(location.hash)
+    if (element) {
+      element.scrollIntoView(true);
+    } 
+})
+
   return (
     <main>
       <section className='main'>
@@ -14,7 +24,9 @@ export default function Games() {
       <nav>
         <GameProjectSlider/>
       </nav>
-      <Outlet />
+      <section id="#project">
+        <Outlet />
+      </section>
     </main>
   )
 }
