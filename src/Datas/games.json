@@ -9,28 +9,28 @@
     {
         "id": "2",
         "title": "Color Damage",
-        "cover": "/Portfolio/Assets/Images/Games/ColorDamage/colorDamage_thumb.png",
+        "cover": "/Portfolio/Assets/Images/Games/ColorDamage/colorDamage_thumb.webp",
         "description": "Thumbnail Color Damage project",
         "link": "/Portfolio/games/ColorDamageProject"
     },
     {
         "id": "3",
         "title": "Rise From Hell",
-        "cover": "/Portfolio/Assets/Images/Games/RiseFromHell/riseFromHell_thumb.png",
+        "cover": "/Portfolio/Assets/Images/Games/RiseFromHell/riseFromHell_thumb.webp",
         "description": "Thumbnail Rise From Hell project",
         "link": "/Portfolio/games/RiseFromHellProject"
     },
     {
         "id": "4",
         "title": "Ether Genesis",
-        "cover": "/Portfolio/Assets/Images/Games/EtherGenesis/EtherGenesisTitle.png",
+        "cover": "/Portfolio/Assets/Images/Games/EtherGenesis/EtherGenesisTitle.webp",
         "description": "Thumbnail Ether Genesis project",
         "link": "/Portfolio/games/EtherGenesisProject"
     },
     {
         "id": "5",
         "title": "Apple On The Walls",
-        "cover": "/Portfolio/Assets/Images/Games/AOTW/aotw_thumb.png",
+        "cover": "/Portfolio/Assets/Images/Games/AOTW/aotw_thumb.webp",
         "description": "Thumbnail Apple On The Walls Project",
         "link": "/Portfolio/games/AOTWProject"
     },

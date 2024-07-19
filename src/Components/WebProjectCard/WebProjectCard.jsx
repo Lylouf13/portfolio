@@ -14,7 +14,7 @@ export default function WebProjectCard(data) {
               <img
               className='webProjectCard__techIcons__icon'
               key={`card_${data.id}_icon_${techno}`} 
-              src={`/Portfolio/Assets/Images/Web/TechIcons/icon_${techno}.png`}
+              src={`/Portfolio/Assets/Images/Web/TechIcons/icon_${techno}.webp`}
               alt={`${techno} logo`}
               />)
             }

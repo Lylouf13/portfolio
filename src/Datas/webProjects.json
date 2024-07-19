@@ -2,7 +2,7 @@
     {
         "id": "1",
         "title": "Kasa",
-        "cover": "/Portfolio/Assets/Images/Web/Kasa/kasa_thumb.png",
+        "cover": "/Portfolio/Assets/Images/Web/Kasa/kasa_thumb.webp",
         "description": "Kasa project thumbnail",
         "link": "/Portfolio/web/KasaProject",
         "technos": ["react", "sass"]
@@ -10,7 +10,7 @@
     {
         "id": "2",
         "title": "724 Events",
-        "cover": "/Portfolio/Assets/Images/Web/724Events/724Events_thumb.png",
+        "cover": "/Portfolio/Assets/Images/Web/724Events/724Events_thumb.webp",
         "description": "724Events project thumbnail",
         "link": "/Portfolio/web/SevenEventsProject",
         "technos": ["react","sass"]
@@ -18,7 +18,7 @@
     {
         "id": "3",
         "title": "Booki",
-        "cover": "/Portfolio/Assets/Images/Web/Booki/booki_thumb.png",
+        "cover": "/Portfolio/Assets/Images/Web/Booki/booki_thumb.webp",
         "description": "Booki project thumbnail",
         "link": "/Portfolio/web/BookiProject",
         "technos": ["html","css"]
@@ -26,7 +26,7 @@
     {
         "id": "4",
         "title": "Argent Bank",
-        "cover": "/Portfolio/Assets/Images/Web/ArgentBank/argentBank_thumb.png",
+        "cover": "/Portfolio/Assets/Images/Web/ArgentBank/argentBank_thumb.webp",
         "description": "ArgentBank project thumbnail",
         "link": "/Portfolio/web/ArgentBankProject",
         "technos": ["react","sass"]
@@ -34,7 +34,7 @@
     {
         "id": "5",
         "title": "Nina Carducci",
-        "cover": "/Portfolio/Assets/Images/Web/NinaCarducci/ninaCarducci_thumb.png",
+        "cover": "/Portfolio/Assets/Images/Web/NinaCarducci/ninaCarducci_thumb.webp",
         "description": "NinaCarducci project thumbnail",
         "link": "/Portfolio/web/NinaCarducciProject",
         "technos": ["html","css","js"]
@@ -42,7 +42,7 @@
     {
         "id": "6",
         "title": "Sophie Bluel",
-        "cover": "/Portfolio/Assets/Images/Web/SophieBluel/sophieBluel_thumb.png",
+        "cover": "/Portfolio/Assets/Images/Web/SophieBluel/sophieBluel_thumb.webp",
         "description": "SophieBluel project thumbnail",
         "link": "/Portfolio/web/SophieBluelProject",
         "technos": ["html","js","css"]
@@ -50,7 +50,7 @@
     {
         "id": "7",
         "title": "OhMyFood",
-        "cover": "/Portfolio/Assets/Images/Web/OhMyFood/ohMyFood_thumb.png",
+        "cover": "/Portfolio/Assets/Images/Web/OhMyFood/ohMyFood_thumb.webp",
         "description": "OhMyFood project thumbnail",
         "link": "/Portfolio/web/OhMyFoodProject",
         "technos": ["html", "sass"]
