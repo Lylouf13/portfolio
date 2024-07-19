@@ -2,13 +2,16 @@
 
 .cta{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     box-sizing: border-box;
     background-color: variables.$color-main;
     border-radius: 0px;
     margin-top: 20px;
-    width: 240px;
+    min-width: 200px;
+    max-width: 300px;
+    gap: 20px;
+    padding: 20px;
     height: 75px;
 
     color: white;
@@ -22,10 +25,14 @@
         color: black;
         border-radius: 10px;
         transition: all 0.5s;
+        .cta__icon{
+            filter: brightness(0);
+            transition: all 0.5s;
+        }
     }
     &__icon{
         width: 45px;
         height: 45px;
-        padding-right: 20px;
+        transition: all 0.5s;
     }
 }
