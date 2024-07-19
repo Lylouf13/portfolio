@@ -9,14 +9,14 @@
     {
         "id": "2",
         "title": "Color Damage",
-        "cover": "/Portfolio/Assets/Images/Games/ColorDamage/CD_7.png",
+        "cover": "/Portfolio/Assets/Images/Games/ColorDamage/colorDamage_thumb.png",
         "description": "Thumbnail Color Damage project",
         "link": "/Portfolio/games/ColorDamageProject"
     },
     {
         "id": "3",
         "title": "Rise From Hell",
-        "cover": "/Portfolio/Assets/Images/Games/RiseFromHell/theo-foray-combat1-1920x1080p.jpg",
+        "cover": "/Portfolio/Assets/Images/Games/RiseFromHell/riseFromHell_thumb.png",
         "description": "Thumbnail Rise From Hell project",
         "link": "/Portfolio/games/RiseFromHellProject"
     },
@@ -30,7 +30,7 @@
     {
         "id": "5",
         "title": "Apple On The Walls",
-        "cover": "/Portfolio/Assets/Images/Games/AOTW/AOTW_1.png",
+        "cover": "/Portfolio/Assets/Images/Games/AOTW/aotw_thumb.png",
         "description": "Thumbnail Apple On The Walls Project",
         "link": "/Portfolio/games/AOTWProject"
     },
