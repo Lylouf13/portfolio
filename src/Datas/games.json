@@ -2,7 +2,7 @@
     {
         "id": "1",
         "title": "Ether",
-        "cover": "/Portfolio/Assets/Images/Games/Ether/Ether_2.jpg",
+        "cover": "/Portfolio/Assets/Images/Games/Ether/Ether_2.webp",
         "description": "Thumbnail ether project",
         "link": "/Portfolio/games/EtherProject"
     },
@@ -37,7 +37,7 @@
     {
         "id": "6",
         "title": "Lighty",
-        "cover": "/Portfolio/Assets/Images/Games/Lighty/lighty_1.jpg",
+        "cover": "/Portfolio/Assets/Images/Games/Lighty/lighty_thumb.webp",
         "description": "Thumbnail Lighty Project",
         "link": "/Portfolio/games/LightyProject"
     }
