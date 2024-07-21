@@ -21,7 +21,7 @@ export default function EtherProject() {
         avoir besoin de l'intervention du joueur. <br />
         La dynamique du joueur (déplacer des éléments) va rentrer en friction avec celle du système (ramener les éléments au centre) et créer des situations plus ou moins
         émergentes. <br />
-        Le jeu est téléchargeable sur itch.io , au format .exe (le lien est juste au dessus !)`}
+        Ether est téléchargeable sur itch.io , au format .exe (le lien est juste au dessus !)`}
       />
       <ProjectImage image={'/portfolio/Assets/Images/Games/Ether/ether_1.webp'} title={"Ether, situation initiale vers laquelle tend le système, les éléments sont regroupés au centre"}/>
       <ProjectImage image={'/portfolio/Assets/Images/Games/Ether/ether_2.webp'} title={"Le joueur a créé de nouveau éléments, on voit ici des composants oranges et des éléments jaunes"}/>

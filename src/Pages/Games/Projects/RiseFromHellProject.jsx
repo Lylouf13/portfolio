@@ -1,9 +1,7 @@
 import React from 'react'
 
 import ProjectImage from '../../../Components/ProjectImage/ProjectImage'
-import ProjectVideo from '../../../Components/ProjectVideo/ProjectVideo'
 import ProjectText from '../../../Components/ProjectText/ProjectText'
-import CtaButton from '../../../Components/CTA/CtaButton'
 import ProjectSkills from '../../../Components/ProjectSkills/ProjectSkills'
 
 
@@ -11,7 +9,7 @@ export default function RiseFromHellProject() {
   return (
     <article className='webProject'>
       <h1 className='webProject__title'>Rise From Hell</h1>
-      <ProjectSkills title={"Rôle sur le projet"}skills={["Game Designer"]}/>
+      <ProjectSkills title={"Rôle sur le projet"}skills={["Game Designer","Sound Designer"]}/>
       <ProjectText 
       title={"Un séjour en enfer"}
       text={`Et si un nécromancien se retrouvait en enfer, dans la section où les âmes damnées sont occupées à travailler sous le joug des démons ? C'est

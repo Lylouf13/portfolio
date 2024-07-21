@@ -6,6 +6,7 @@
     justify-content: center;
     background-color: variables.$color-main;
     position: sticky;
+    height: 75px;
     top:0;
     z-index: 10;
 
@@ -14,6 +15,7 @@
         text-decoration: none;
         padding: 20px;
         width: 150px;
+        height: 75px;
 
         background-color: variables.$color-main;
         color: white;
@@ -24,6 +26,7 @@
 
         &-current{
             background-color: variables.$color-secondary;
+            height: 90px;
             color: black;
         }
 
@@ -35,12 +38,15 @@
     &__logo{
         position: absolute;
         left:10px;
-        top: 7px;
-        height:50px;
+        top: 10px;
+        &__image{
+            height:50px;
+        }
     }
     @media screen and (max-width: variables.$screenWidth_mobile) {
         position: static;
         margin-top: 10px;
+        height: auto;
         background-color: white;
         flex-wrap: wrap;
         gap: 20px;
