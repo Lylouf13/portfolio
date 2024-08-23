@@ -31,11 +31,16 @@
     &__linkIcon{
         width: 75px;
         height: 75px;
+        transition: all 1s;
+        &:hover{
+            transform: scale(1.4);
+        }
     }
     .flex-row{
         display: flex;
         flex-direction: row;
         gap: 35px;
         margin-bottom: 20px;
+        box-sizing: border-box;
     }
 }
