@@ -4,6 +4,7 @@ import { useLocation } from 'react-router-dom'
 
 import Navbar from './Components/Navbar/Navbar.jsx';
 import Router from './Components/MyRouter.jsx';
+import Footer from './Components/Footer/Footer.jsx';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Router />
+      <Footer />
     </div>
   );
 }

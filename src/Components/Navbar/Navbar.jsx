@@ -5,7 +5,6 @@ import { Link, useLocation } from 'react-router-dom'
 
 export default function Navbar() {
   const location = useLocation()
-  console.log(location)
   return (
     <nav className='navbar'>
       <div className='navbar__logo'>

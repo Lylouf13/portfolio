@@ -55,7 +55,7 @@ export default function NinaCarducci() {
         l'utilisation du lien sur les réseaux sociaux plus sympathiques pour les potentiels utilisateurs`}
       />
       <ProjectImage image={'/portfolio/Assets/Images/Web/NinaCarducci/ninaCarducci_8.webp'} title={"Card générée par OpenGraph"}/>
-      <ProjectImage image={'/portfolio/Assets/Images/Web/NinaCarducci/ninaCarducci_9.webp'} title={"Card générée par Twitte Cards"}/>
+      <ProjectImage image={'/portfolio/Assets/Images/Web/NinaCarducci/ninaCarducci_9.webp'} title={"Card générée par Twitter Cards"}/>
     </article>  
   )
 }

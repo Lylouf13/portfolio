@@ -43,11 +43,6 @@ export default function Home() {
             <CtaButton title='Games' link='/portfolio/games#top'/>
             <CtaButton title='Pixel Art' link='/portfolio/pixelArt#top'/>
           </div>
-
-          <ProjectSkills 
-            title={'Mes Contacts'}
-            skills={['MAIL : lylian.leutard@gmail.com','TEL : 0652581805']} 
-          />
     </section>
   )
 }
