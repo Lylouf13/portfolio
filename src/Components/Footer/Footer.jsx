@@ -6,7 +6,6 @@ import './footer.scss'
 
 export default function Footer() {
   const location = useLocation()
-  console.log(location)
   return (
     <div className='footer'>
       <h2 className='footer__title'>Restons en contact !</h2>
