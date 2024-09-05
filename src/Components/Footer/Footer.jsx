@@ -8,7 +8,7 @@ export default function Footer() {
   const location = useLocation()
   return (
     <div className='footer'>
-      <h2 className='footer__title'>Restons en contact !</h2>
+      <h2 className='footer__title'>Contactez-moi !</h2>
         <ul className='footer__list'>
             <li className='footer__list__item'>
               <img className='footer__list__icon'src={`/portfolio/Assets/Images/Misc/Icons/icon_phone.png`} alt='icon'/>
